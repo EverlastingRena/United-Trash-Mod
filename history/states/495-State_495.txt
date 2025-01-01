@@ -1,0 +1,11 @@
+state={
+	id=495
+	name="STATE_495"
+	provinces={
+		16400 16499 16572 16573 16645 16689 16711 16734 16806 16850 16871 16945 16962 16963 17114 17151 17293 21685 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

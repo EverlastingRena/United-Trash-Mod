@@ -1,0 +1,120 @@
+spriteTypes = {
+    frameAnimatedSpriteType = {
+        name = "GFX_paradox_logo"
+        texturefile = "gfx/interface/elements_ETM/paradox_logo.dds"
+        noOfFrames = 27 
+	animation_rate_fps = 24 
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.0 
+    }
+
+    frameAnimatedSpriteType = {
+        name = "GFX_globus"
+        texturefile = "gfx/interface/elements_ETM/globus.dds"
+        noOfFrames = 30
+	animation_rate_fps = 24 
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.0 
+    }
+
+    frameAnimatedSpriteType = {
+        name = "GFX_pop_cat"
+        texturefile = "gfx/interface/elements_ETM/pop_cat.dds"
+        noOfFrames = 2
+	animation_rate_fps = 15
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.0 
+    }
+
+
+corneredTileSpriteType = {
+		name = "GFX_tiled_window_mainmenu_ETM"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//mainmenu_ETM//tiled_window_mainmenu_ETM.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_mainmenu_button_credits_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_credits_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_friends_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_friends_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_multiplay_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_multiplay_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_nudge_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_nudge_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_rating_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_rating_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_settings_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_settings_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_single_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_single_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_exit_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_exit_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_discord_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_discord_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_github_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_github_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_reddit_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_reddit_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_rutube_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_rutube_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_mainmenu_button_vkontakte_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_vkontakte_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+}

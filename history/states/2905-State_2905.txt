@@ -1,0 +1,10 @@
+state={
+	id=2905
+	name="STATE_2905"
+	provinces={
+		1742 1769 1795 1796 1828 1829 1850 1899 
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,86 @@
+spriteTypes = {
+    frameAnimatedSpriteType = {
+        name = "GFX_gif_tile_africa"
+        texturefile = "gfx/interface/select_continent_ETM/gif_tile_africa.dds"
+        noOfFrames = 18
+	animation_rate_fps = 4
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.5
+    }
+    frameAnimatedSpriteType = {
+        name = "GFX_gif_tile_america"
+        texturefile = "gfx/interface/select_continent_ETM/gif_tile_america.dds"
+        noOfFrames = 18
+	animation_rate_fps = 4
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.5
+    }
+    frameAnimatedSpriteType = {
+        name = "GFX_gif_tile_asia"
+        texturefile = "gfx/interface/select_continent_ETM/gif_tile_asia.dds"
+        noOfFrames = 18
+	animation_rate_fps = 4
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.5
+    }
+    frameAnimatedSpriteType = {
+        name = "GFX_gif_tile_atlantic"
+        texturefile = "gfx/interface/select_continent_ETM/gif_tile_atlantic.dds"
+        noOfFrames = 18
+	animation_rate_fps = 4
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.5
+    }
+    frameAnimatedSpriteType = {
+        name = "GFX_gif_tile_euro"
+        texturefile = "gfx/interface/select_continent_ETM/gif_tile_euro.dds"
+        noOfFrames = 18
+	animation_rate_fps = 4
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.5
+    }
+    frameAnimatedSpriteType = {
+        name = "GFX_gif_tile_fortnait"
+        texturefile = "gfx/interface/select_continent_ETM/gif_tile_fortnait.dds"
+        noOfFrames = 18
+	animation_rate_fps = 4
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.5
+    }
+    frameAnimatedSpriteType = {
+        name = "GFX_gif_tile_japan"
+        texturefile = "gfx/interface/select_continent_ETM/gif_tile_japan.dds"
+        noOfFrames = 18
+	animation_rate_fps = 4
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.5
+    }
+    frameAnimatedSpriteType = {
+        name = "GFX_gif_tile_souz"
+        texturefile = "gfx/interface/select_continent_ETM/gif_tile_souz.dds"
+        noOfFrames = 18
+	animation_rate_fps = 4
+	looping = yes 
+	play_on_show = yes 
+	pause_on_loop = 0.5
+    }
+	
+	textSpriteType = {
+		name = "GFX_select_continent_button_apply_ETM"
+		textureFile = "gfx/interface/select_continent_ETM/select_continent_button_apply_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	spriteType = {
+		name = "GFX_select_continent_underlining_ETM"
+		texturefile = "gfx/interface/select_continent_ETM/select_continent_underlining_ETM.dds"
+	}
+	
+}
