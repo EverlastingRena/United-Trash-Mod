@@ -1,0 +1,17 @@
+capital = 1168
+set_convoys = 5
+
+set_politics = {
+	ruling_party = pahanism
+	last_election = "1983.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	anorchism = 10
+	borshewism = 22
+	pahanism = 26
+	burjuism = 10
+	bidlo = 32
+	putinism = 0
+}

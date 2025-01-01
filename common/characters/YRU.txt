@@ -1,0 +1,182 @@
+characters={
+	YRU_Alexander_Vladimirovich_Rutskoi_gribonism = { 
+		name = YRU_Alexander_Vladimirovich_Rutskoi_gribonism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Alexander_Vladimirovich_Rutskoi_gribonism.dds"
+			}
+		}
+		country_leader = {
+			ideology = gribonism 
+			desc = YRU_Alexander_Vladimirovich_Rutskoi_gribonism_DESC
+		}
+	}
+	YRU_Dmitry_Derevitsky_monarcho_borshevism = { 
+		name = YRU_Dmitry_Derevitsky_monarcho_borshevism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Dmitry_Derevitsky_monarcho_borshevism.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarcho_borshevism
+			desc = YRU_Dmitry_Derevitsky_monarcho_borshevism_DESC
+		}
+	}
+	YRU_Dmitry_Dmitrievich_Zhvania_anarcho_communism = { 
+		name = YRU_Dmitry_Dmitrievich_Zhvania_anarcho_communism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Dmitry_Dmitrievich_Zhvania_anarcho_communism.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarcho_communism
+			desc = YRU_Dmitry_Dmitrievich_Zhvania_anarcho_communism_DESC
+		}
+	}
+	YRU_Nikolai_Ananyevich_Degtyarenko_orthodox_borshewism = { 
+		name = YRU_Nikolai_Ananyevich_Degtyarenko_orthodox_borshewism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Nikolai_Ananyevich_Degtyarenko_orthodox_borshewism.dds"
+			}
+		}
+		country_leader = {
+			ideology = orthodox_borshewism
+			desc = YRU_Nikolai_Ananyevich_Degtyarenko_orthodox_borshewism_DESC
+		}
+	}
+	YRU_Nina_Aleksandrovna_Andreeva_orthodox_borshewism = { 
+		name = YRU_Nina_Aleksandrovna_Andreeva_orthodox_borshewism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Nina_Aleksandrovna_Andreeva_orthodox_borshewism.dds"
+			}
+		}
+		country_leader = {
+			ideology = orthodox_borshewism
+			desc = YRU_Nina_Aleksandrovna_Andreeva_orthodox_borshewism_DESC
+		}
+	}
+	YRU_Turik_Alexander_Stepanovich_chornaya_sotnya = { 
+		name = YRU_Turik_Alexander_Stepanovich_chornaya_sotnya
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Turik_Alexander_Stepanovich_chornaya_sotnya.dds"
+			}
+		}
+		country_leader = {
+			ideology = chornaya_sotnya
+			desc = YRU_Turik_Alexander_Stepanovich_chornaya_sotnya_DESC
+		}
+	}
+	YRU_Zakhar_Prilepin_narodnichestvo = { 
+		name = YRU_Zakhar_Prilepin_narodnichestvo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Zakhar_Prilepin_narodnichestvo.dds"
+			}
+		}
+		country_leader = {
+			ideology = narodnichestvo
+			desc = YRU_Zakhar_Prilepin_narodnichestvo_DESC
+		}
+	}
+	YRU_Council_of_Korean_Anarchists_national_anarchism = { 
+		name = YRU_Council_of_Korean_Anarchists_national_anarchism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Council_of_Korean_Anarchists_national_anarchism.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_anarchism
+			desc = YRU_Council_of_Korean_Anarchists_national_anarchism_DESC
+		}
+	}
+	YRU_Jin_Yuzhang_manyarchism = { 
+		name = YRU_Jin_Yuzhang_manyarchism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Jin_Yuzhang_manyarchism.dds"
+			}
+		}
+		country_leader = {
+			ideology = manyarchism
+			desc = YRU_Jin_Yuzhang_manyarchism_DESC
+		}
+	}
+	YRU_Jin_Yuzhang_monarcho_borshevism = { 
+		name = YRU_Jin_Yuzhang_monarcho_borshevism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Jin_Yuzhang_monarcho_borshevism.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarcho_borshevism
+			desc = YRU_Jin_Yuzhang_monarcho_borshevism_DESC
+		}
+	}
+	YRU_Jin_Yuzhang_narodnichestvo = { 
+		name = YRU_Jin_Yuzhang_narodnichestvo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Jin_Yuzhang_narodnichestvo.dds"
+			}
+		}
+		country_leader = {
+			ideology = narodnichestvo
+			desc = YRU_Jin_Yuzhang_narodnichestvo_DESC
+		}
+	}
+	YRU_Jin_Yuzhang_samostiynost = { 
+		name = YRU_Jin_Yuzhang_samostiynost
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Jin_Yuzhang_samostiynost.dds"
+			}
+		}
+		country_leader = {
+			ideology = samostiynost
+			desc = YRU_Jin_Yuzhang_samostiynost_DESC
+		}
+	}
+	YRU_Makoto_Sakurai_manyarchism = { 
+		name = YRU_Makoto_Sakurai_manyarchism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Makoto_Sakurai_manyarchism.dds"
+			}
+		}
+		country_leader = {
+			ideology = manyarchism
+			desc = YRU_Makoto_Sakurai_manyarchism_DESC
+		}
+	}
+	YRU_Makoto_Sakurai_national_burzhuism = { 
+		name = YRU_Makoto_Sakurai_national_burzhuism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Makoto_Sakurai_national_burzhuism.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_burzhuism
+			desc = YRU_Makoto_Sakurai_national_burzhuism_DESC
+		}
+	}
+	YRU_Makoto_Sakurai_objectivism = { 
+		name = YRU_Makoto_Sakurai_objectivism
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YRU/Makoto_Sakurai_objectivism.dds"
+			}
+		}
+		country_leader = {
+			ideology = objectivism
+			desc = YRU_Makoto_Sakurai_objectivism_DESC
+		}
+	}
+}

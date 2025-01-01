@@ -1,0 +1,16 @@
+characters={
+	JP1_che_burashka={
+		name = JP1_che_burashka
+		portraits={
+			civilian={
+				large=GFX_portrait_CHEBURASHKA
+			}
+		}
+		country_leader={
+			ideology = sralinism
+			traits ={ dictator }
+			expire = "1965.1.1.1"
+			id=-1
+		}
+	}
+}

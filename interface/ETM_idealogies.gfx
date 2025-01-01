@@ -1,0 +1,196 @@
+spriteTypes = {
+	
+	
+	spriteType = {
+		name = "GFX_autonomy_unknown_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_unknown_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_free_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_freedom_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_annex_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_annex_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_dominion_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_dominion_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_colony_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_puppet_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_puppet_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_integrated_puppet_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_integrated_puppet_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_collaboration_government_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_collaboration_government.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_level_button"
+		textureFile = "gfx/interface/autonomy/autonomy_level_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_reichskommissariat_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_reichskommissariat_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_reichsprotectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_reichsprotectorate_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_satellite_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_satellite.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_wtt_imperial_associate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_associate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_wtt_imperial_subject_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_associate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_wtt_imperial_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_protectorate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_supervised_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_supervised_state.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_bid_kommissariat_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_bid_kommissariat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_bid_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_bid_protectorate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_bid_satellite_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_bid_satellite.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_bor_kommissariat_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_bor_kommissariat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_bor_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_bor_protectorate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_bor_satellite_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_bor_satellite.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_pah_kommissariat_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_pah_kommissariat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_pah_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_pah_protectorate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_pah_satellite_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_pah_satellite.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_put_kommissariat_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_put_kommissariat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_put_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_put_protectorate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_put_satellite_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_put_satellite.dds"
+	}
+	
+	
+
+	spriteType = {
+		name = "GFX_ideology_bidlo_group"
+		texturefile = "gfx/interface/ideologies/bidlo_group.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_borshewism_group"
+		texturefile = "gfx/interface/ideologies/borshewism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_burjuism_group"
+		texturefile = "gfx/interface/ideologies/burjuism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_pahanism_group"
+		texturefile = "gfx/interface/ideologies/pahanism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_putinism_group"
+		texturefile = "gfx/interface/ideologies/putinism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_unknown"
+		texturefile = "gfx/interface/ideologies/unknown.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+        name = "GFX_ideology_gribonism"
+        texturefile = "gfx/interface/ideologies/gribonism.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_ideology_islamism"
+        texturefile = "gfx/interface/ideologies/islamism.dds"
+    }
+	spriteType = {
+        name = "GFX_ideology_gachism"
+        texturefile = "gfx/interface/ideologies/gachism.dds"
+    }
+}

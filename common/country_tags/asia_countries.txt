@@ -1,0 +1,15 @@
+TST = "countries/_western_european.txt"
+
+DVY = "countries/DVY.txt"
+NZR = "countries/NZR.txt"
+SGD = "countries/SGD.txt"
+TOK = "countries/TOK.txt"
+VKH = "countries/VKH.txt"
+RAG = "countries/RAG.txt"
+BAI = "countries/BAI.txt"
+AHE = "countries/AHE.txt"
+
+TRM = "countries/TRM.txt"
+BKH = "countries/BKH.txt"
+BSM = "countries/BSM.txt"
+ANT = "countries/ANT.txt"

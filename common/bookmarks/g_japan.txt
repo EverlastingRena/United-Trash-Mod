@@ -2,9 +2,20 @@ bookmarks = {
 	bookmark = {
 		name = "JAPAN_NAME"
 		desc = "JAPAN_DESC"
-		date = 1936.1.1.12
+		date = 0002.1.1.1
 		picture = ""
-		default_country = "GER"
+		default_country = "TST" 
+
+		"TST" = {
+			history = "TST_DESC"
+			ideology = anorchism 
+			ideas={
+			#
+			}
+			focuses = {
+				#
+			}
+		}
 
 		"---"={
 			history = "OTHER_DESC"
