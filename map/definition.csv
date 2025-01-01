@@ -21410,7 +21410,7 @@
 21409;85;86;104;sea;true;ocean;0
 21410;41;49;64;sea;false;ocean;0
 21411;36;6;31;sea;false;ocean;0
-21412;29;67;12;sea;true;ocean;0
+21412;29;67;12;lake;false;lakes;0
 21413;22;41;93;sea;true;ocean;0
 21414;1;66;53;sea;true;ocean;0
 21415;57;15;63;sea;true;ocean;0
@@ -21423,7 +21423,7 @@
 21422;107;56;86;sea;true;ocean;0
 21423;20;63;53;sea;true;ocean;0
 21424;105;90;103;sea;true;ocean;0
-21425;1;79;60;sea;true;ocean;0
+21425;1;79;60;lake;false;lakes;0
 21426;88;55;127;sea;true;ocean;0
 21427;24;87;14;sea;true;ocean;0
 21428;98;73;63;sea;true;ocean;0
