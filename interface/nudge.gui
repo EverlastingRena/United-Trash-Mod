@@ -1297,7 +1297,7 @@ guiTypes = {
 			name = "region_header"
 			position = { x = 10 y = 10 }
 			textureFile = ""
-			font = "Main_16"
+			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Strategic region name: "	
 			maxWidth = 300
@@ -1308,7 +1308,7 @@ guiTypes = {
 			position = { x = 10 y = 20  }
 			name = "region_name"
 			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
-			font = "Main_16"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			size = { x=200 y=40}
 			text = " "	
