@@ -3,7 +3,6 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "hoi_20bl_cryllic"
-		path = "gfx/fonts/hoi_20bl_cryllic"
 		fontfiles = {
 			"gfx/fonts/hoi_20bl_cryllic"
 			"gfx/fonts/hoi_20bl"

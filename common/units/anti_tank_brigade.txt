@@ -13,7 +13,7 @@ sub_units = {
 			anti_tank
 		}
 		
-		group = combat_support
+		group = infantry
 		
 		categories = {
 			category_front_line
@@ -26,7 +26,7 @@ sub_units = {
 		need = {
 			anti_tank_equipment = 36
 		}
-		manpower = 500
+		manpower = 250
 		max_organisation = 0
 		default_morale = 0
 		max_strength = 0.6
@@ -84,13 +84,12 @@ sub_units = {
 			anti_tank
 		}
 		
-		group = mobile_combat_support
+		group = mobile
 		
 		categories = {
 			category_front_line
 			category_army
 			category_line_artillery
-			category_mobile_and_mobile_combat_sup
 		}		
 		
 		combat_width = 1
@@ -103,7 +102,7 @@ sub_units = {
 			anti_tank_equipment = 36
 			motorized_equipment = 50
 		}
-		manpower = 500
+		manpower = 250
 		max_organisation = 0
 		default_morale = 0
 		max_strength = 0.6

@@ -3,41 +3,24 @@ debug_decisions = {
 	visible = {
 		is_debug = yes
 		is_ai = no
+		OR = {
+			AND = {
+				has_country_flag = NOR_vanilla_debug_tack
+				tag = NOR 
+			}
+			NOT = { tag = NOR }
+		}
 	}
 }
 propaganda_efforts = {
 	icon = generic_propaganda
 
-	allowed = {
-		always = no
-	}
-
 	visible = {
 
 	}
-}
-MTG_naval_treaties = {
-	picture = GFX_decision_cat_picture_naval_treaties
-	allowed = {
-		has_dlc = "Man the Guns"
-		always = no
-	}
-	visible = {
-		OR = {
-			is_major = yes
-		}
-		any_owned_state = {
-			is_coastal = yes
-		}
-	}
-	priority = 10
 }
 war_measures = {
 	icon = generic_propaganda
-
-	allowed = {
-		always = no
-	}
 
 	visible = {
 		has_war = yes
@@ -48,31 +31,140 @@ operations = {
 	icon = GFX_decision_category_military_operation
 	priority = 9
 }
+
 foreign_support = {
 	icon = generic_political_actions
 	
 }
+
 prestigious_projects = {
 	
-}
-CHI_occupation_actions = {
-	icon = generic_crisis
-	priority = 2
 }
 
 foreign_politics = {
 	icon = generic_political_actions
 }
+
 political_actions = {
 	icon = generic_political_actions
 
 	allowed = {
-		always = no
+		always = yes
+	}
+
+	visible = {
+		if = {
+			limit = {
+				has_dlc = "By Blood Alone"
+			}
+			NOT = { original_tag = SWI }
+			NOT = { has_country_flag = SWI_can_use_political_actions }
+		}
+		if = {
+			limit = {
+				has_dlc = "Arms Against Tyranny"
+			}
+			NOT = {
+				AND = {
+					original_tag = DEN
+					is_subject = yes
+				}
+			}
+		}
 	}
 }
+
 foreign_influence = {
 	icon = generic_political_actions
 }
+
+fascism_on_the_rise = {
+	icon = generic_fascism
+	
+}
+
+democratic_on_the_rise = {
+	icon = generic_democracy
+
+	allowed = {
+		NOT = {
+			AND = {
+				has_dlc = "No Step Back"
+				OR = {
+					original_tag = EST
+					original_tag = LAT
+					original_tag = LIT
+					original_tag = POL
+				}
+			}
+
+			AND = {
+				has_dlc = "By Blood Alone"
+				OR = {
+					original_tag = SWI
+					original_tag = ITA
+				}
+			}
+
+			AND = {
+				has_dlc = "Arms Against Tyranny"
+				OR = {
+					original_tag = SWE
+					original_tag = FIN
+				}
+			}
+		}
+	}
+	
+	#visible = {
+	#	NOT = { has_government = democratic }
+	#	has_idea_with_trait = democratic_reformer
+	#}
+}
+
+communism_on_the_rise = {
+	icon = generic_communism
+
+	allowed = {
+		NOT = {
+			AND = {
+				has_dlc = "Man the Guns"
+				OR = {
+					original_tag = USA
+					original_tag = MEX
+					original_tag = ENG
+				}
+			}
+			AND = {
+				has_dlc = "No Step Back"
+				OR = {
+					original_tag = EST
+					original_tag = LAT
+					original_tag = LIT
+					original_tag = POL
+				}
+			}
+			AND = {
+				has_dlc = "By Blood Alone"
+				original_tag = ITA
+			}
+
+			AND = {
+				has_dlc = "Arms Against Tyranny"
+				OR = {
+					original_tag = SWE
+					original_tag = FIN
+				}
+			}
+		}
+	}
+	
+	visible = {
+	#	NOT = { has_government = communism }
+	#	has_idea_with_trait = communist_revolutionary
+	}
+}
+
 crisis = {
 	icon = generic_crisis
 	priority = 100
@@ -84,6 +176,7 @@ crisis = {
 		}
 	}
 }
+
 demobilization = {
 	icon = generic_crisis
 	priority = 100
@@ -92,14 +185,12 @@ demobilization = {
 		has_war = no
 	}
 }
+
 economy_decisions = {
 	icon = generic_economy
 
-	allowed = {
-		always = no
-	}
-
 }
+
 prospect_for_resources = {
 	icon = generic_prospect_for_resources
 
@@ -128,11 +219,9 @@ governments_in_exile = {
 		}
 	}
 
-	visible = {
-	}
-
 	priority = 7
 }
+
 category_exile_forces = {
 	
 	icon = infiltration
@@ -151,6 +240,7 @@ category_test_decisions = {
 		is_debug = yes
 	}
 }
+
 lar_local_recruitment = {
 	allowed = { has_dlc = "La Resistance" }
 
@@ -220,6 +310,14 @@ lar_local_recruitment = {
 				has_country_flag = asia_recruitment_unlocked
 				capital_scope = { is_on_continent = asia }
 			}
+			NOT = {
+				tag = RAJ
+				tag = PAK
+				tag = BAN
+				tag = NEP
+				tag = BHU
+				tag = SRL
+			}
 		}
 	}
 
@@ -244,6 +342,12 @@ lar_local_recruitment = {
 		target_root_trigger = {
 			OR = {
 				has_country_flag = india_recruitment_unlocked
+				tag = RAJ
+				tag = PAK
+				tag = BAN
+				tag = NEP
+				tag = BHU
+				tag = SRL
 			}
 		}
 	}
@@ -261,6 +365,7 @@ lar_local_recruitment = {
 		}
 	}
 }
+
 nato_decisions = {
 	picture = generic_democracy
 	allowed = {
@@ -279,12 +384,27 @@ foreign_mio_decisions_category = {
 	}
 	priority = 5
 }
+
+
 generic_purchase_old_ships_category = {
 	icon = GFX_decision_category_MTG_naval_treaties
 	picture = GFX_decision_cat_picture_naval_treaties
 	
 	allowed = {
-		always = yes
+		OR = {
+			AND = {
+				original_tag = ETH
+				has_dlc = "By Blood Alone"
+			}
+			AND = {
+				original_tag = SWE
+				has_dlc = "Arms Against Tyranny"
+			}
+			AND = {
+				original_tag = DEN
+				has_dlc = "Arms Against Tyranny"
+			}
+		}
 	}
 	visible = {
 		has_country_flag = generic_purchase_old_ships_flag
@@ -295,12 +415,18 @@ generic_purchase_old_ships_category = {
 	}
 	visible_when_empty = no
 }
+
 generic_refit_civilian_ships_category = {
 	icon = GFX_decision_category_MTG_naval_treaties
 	picture = GFX_decision_cat_picture_generic_shipbuilding
 	
-	allowed = {
-		always = yes
+	allowed = { #Add tags here with first an OR then an AND
+		OR = {
+			original_tag = DEN
+			original_tag = FIN
+			original_tag = ICE
+		}
+		has_dlc = "Arms Against Tyranny"
 	}
 	visible = {
 		has_country_flag = refit_convoy_ships_flag
@@ -310,39 +436,4 @@ generic_refit_civilian_ships_category = {
 		base = 8
 	}
 	visible_when_empty = no
-}
-fascism_on_the_rise = {
-	icon = generic_fascism
-
-	allowed = {
-		always = yes
-	}
-	
-	visible = {
-		always = yes
-	}
-}
-
-democratic_on_the_rise = {
-	icon = generic_democracy
-
-	allowed = {
-		always = yes
-	}
-	
-	visible = {
-		always = yes
-	}
-}
-
-communism_on_the_rise = {
-	icon = generic_communism
-
-	allowed = {
-		always = yes
-	}
-	
-	visible = {
-		always = yes
-	}
 }

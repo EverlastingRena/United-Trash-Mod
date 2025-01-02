@@ -20,7 +20,6 @@ sub_units = {
 			category_front_line
 			category_all_armor
 			category_army
-			category_amphibious_tanks
 		}
 
 
@@ -29,7 +28,7 @@ sub_units = {
 		need = {
 			amphibious_tank_chassis = 50
 		}
-		manpower = 500
+		manpower = 250
 		max_organisation = 10
 		default_morale = 0.3
 		training_time = 180
@@ -88,7 +87,6 @@ sub_units = {
 			category_front_line
 			category_all_armor
 			category_army
-			category_amphibious_tanks
 		}
 
 
@@ -97,7 +95,7 @@ sub_units = {
 		need = {
 			light_tank_amphibious_chassis = 50
 		}
-		manpower = 500
+		manpower = 250
 		max_organisation = 10
 		default_morale = 0.3
 		training_time = 180
@@ -156,7 +154,6 @@ sub_units = {
 			category_front_line
 			category_all_armor
 			category_army
-			category_amphibious_tanks
 		}
 
 
@@ -165,7 +162,7 @@ sub_units = {
 		need = {
 			medium_tank_amphibious_chassis = 50
 		}
-		manpower = 500
+		manpower = 250
 		max_organisation = 10
 		default_morale = 0.3
 		training_time = 180
@@ -224,7 +221,6 @@ sub_units = {
 			category_front_line
 			category_all_armor
 			category_army
-			category_amphibious_tanks
 		}
 
 
@@ -233,7 +229,7 @@ sub_units = {
 		need = {
 			heavy_tank_amphibious_chassis = 50
 		}
-		manpower = 500
+		manpower = 250
 		max_organisation = 10
 		default_morale = 0.3
 		training_time = 180

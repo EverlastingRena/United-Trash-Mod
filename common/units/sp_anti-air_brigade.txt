@@ -13,12 +13,11 @@ sub_units = {
 			anti_air
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_all_armor
 			category_army
-			category_self_propelled_anti_air
 		}
 
 		combat_width = 2
@@ -26,7 +25,7 @@ sub_units = {
 		need = {
 			light_tank_aa_chassis = 36
 		}
-		manpower = 500
+		manpower = 250
 		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0.6
@@ -79,12 +78,11 @@ sub_units = {
 			anti_air
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_all_armor
 			category_army
-			category_self_propelled_anti_air
 		}
 
 		combat_width = 2
@@ -149,12 +147,11 @@ sub_units = {
 			anti_air
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_all_armor
 			category_army
-			category_self_propelled_anti_air
 		}
 
 		combat_width = 2
@@ -214,21 +211,19 @@ sub_units = {
 		categories = {
 			category_all_armor
 			category_army
-			category_self_propelled_anti_air
 		}
 		
-		group = support
+		group = armor
 		
 		type = {
-			support
 			armor
 			anti_air
 		}
 
-		combat_width = 0
+		combat_width = 2
 
 		need = {
-			super_heavy_tank_aa_chassis = 20
+			super_heavy_tank_aa_chassis = 36
 		}
 		manpower = 500
 		max_organisation = 0
@@ -286,12 +281,11 @@ sub_units = {
 			anti_air
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_all_armor
 			category_army
-			category_self_propelled_anti_air
 		}
 
 		combat_width = 2
