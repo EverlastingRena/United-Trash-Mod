@@ -5,6 +5,7 @@ state={
 		16308 
 	}
 	manpower=1
-	state_category = "rural"
+	impassable = yes
+	state_category = "wasteland"
 	buildings_max_level_factor=1.000
 }
