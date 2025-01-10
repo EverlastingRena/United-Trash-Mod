@@ -112,6 +112,12 @@ corneredTileSpriteType = {
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
 	textSpriteType = {
+		name = "GFX_mainmenu_button_2ch_ETM"
+		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_2ch_ETM.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
 		name = "GFX_mainmenu_button_vkontakte_ETM"
 		textureFile = "gfx/interface/mainmenu_ETM/mainmenu_button_vkontakte_ETM.dds"
 		noOfFrames = 3
