@@ -1,3 +1,4 @@
+
 state={
 	id=775
 	name="STATE_775"
@@ -5,6 +6,7 @@ state={
 		15484 15539 15563 
 	}
 	manpower=1
-	state_category = "rural"
 	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
