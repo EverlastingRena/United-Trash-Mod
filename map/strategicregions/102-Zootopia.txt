@@ -3,7 +3,7 @@ strategic_region={
 	id=102
 	name="STRATEGICREGION_102"
 	provinces={
-		16147 16263 16359 16386 16410 16518 21668 21677 21680 
+		16263 16359 16386 16410 16518 
 	}
 	weather={
 	}
