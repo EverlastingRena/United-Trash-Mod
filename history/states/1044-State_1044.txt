@@ -1,6 +1,16 @@
 state={
 	id=1044
 	name="STATE_1044"
+	history = {
+	victory_points = { 13703 38 }#Йошкар-ола
+	victory_points = { 13462 17 }#Козьмодемьянск
+	victory_points = { 13754 18 }#Медведево
+	victory_points = { 13268 20 }#Волжск
+	victory_points = { 13289 10 }#Звенигово
+	victory_points = { 13501 5 }#Юрино
+	victory_points = { 13369 9 }#Морки
+	victory_points = { 13582 8 }#Сернур
+	}
 	provinces={
 		13268 13289 13369 13462 13501 13502 13550 13582 13703 13727 13754 13823 
 	}
