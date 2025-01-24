@@ -1,6 +1,12 @@
 state={
 	id=1211
 	name="STATE_1211"
+	history = {
+	victory_points = { 12438 52 }#Набережные Челны
+	victory_points = { 12304 9 }#Актаныш
+	victory_points = { 12670 17 }#Агрыз
+	victory_points = { 12586 17 }#Менделеевск
+}
 	provinces={
 		12304 12438 12586 12670 12671 21641 21642 21644 
 	}

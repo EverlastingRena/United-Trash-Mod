@@ -1,6 +1,14 @@
 state={
 	id=1084
 	name="STATE_1084"
+	history = {
+	victory_points = { 12609 23 }#Елабуга
+	victory_points = { 12561 15 }#Мамадыш
+	victory_points = { 21637 9 }#Лаишево
+	victory_points = { 13201 16 }#Кукмор
+	victory_points = { 13174 25 }#Зеленодольск
+	victory_points = { 13091 16 }#Высокая гора
+	victory_points = { 12817 17 }#Арск
 	provinces={
 		12561 12584 12585 12609 12788 12789 12817 12845 12893 13091 13174 13200 13201 13370 13527 
 	}

@@ -1,6 +1,11 @@
 state={
 	id=1169
 	name="STATE_1169"
+	history = {
+	victory_points = { 13008 50 }#Северная Казань
+	victory_points = { 12916 80 }#Южная Казань
+
+}
 	provinces={
 		12916 13008 
 	}
