@@ -4,6 +4,10 @@ state={
 	provinces={
 		18544 2660
 	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
 	manpower=1
 	impassable = yes
 	buildings_max_level_factor=1.000

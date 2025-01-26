@@ -4,6 +4,10 @@ state={
 	provinces={
 		10939 10999 11119 11138 11171 11237 11324 11367 11419 11445 11446 11492 11539 11540 11569 11598 11757 11774 11862 11927 
 	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

@@ -4,6 +4,10 @@ state={
 	provinces={
 		13450 13585 13687 13733 13858 14088 14175 14244 14386 14494 14616 14811 14873 15001 15224 15372 15905 
 	}
+	history={
+		owner = ZKL
+		add_core_of = ZKL
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

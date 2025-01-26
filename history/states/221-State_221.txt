@@ -4,6 +4,10 @@ state={
 	provinces={
 		14224 14225 14471 14872 15085 15086 15109 15197 15478 15649 15650 15696 15882 16046 16133 16383 16532 16559 16627 16672 16965 17096 
 	}
+	history={
+		owner = YAK
+		add_core_of = YAK
+	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural

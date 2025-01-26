@@ -4,6 +4,10 @@ state={
 	provinces={
 		18355 18388 18442 
 	}
+	history={
+		owner = KRN
+		add_core_of = KRN
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

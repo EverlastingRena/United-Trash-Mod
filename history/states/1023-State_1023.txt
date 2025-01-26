@@ -4,6 +4,10 @@ state={
 	provinces={
 		12826 13207 13341 13372 13388 13489 13761 13832 14089 
 	}
+	history={
+		owner = MHS
+		add_core_of = MHS
+	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural

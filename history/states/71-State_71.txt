@@ -4,6 +4,10 @@ state={
 	provinces={
 		19244 19256 19257 19375 19399 19431 19459 19469 19507 19534 19584 19597 19625 19684 
 	}
+	history={
+		owner = ALC
+		add_core_of = ALC
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

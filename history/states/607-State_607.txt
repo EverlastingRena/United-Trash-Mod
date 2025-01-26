@@ -4,6 +4,10 @@ state={
 	provinces={
 		16235 16326 16463 
 	}
+	history={
+		owner = YAK
+		add_core_of = YAK
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000
