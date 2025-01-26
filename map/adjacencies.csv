@@ -1,3 +1,6 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+8186;8185;impassable;-1;-1;-1;-1;-1;;yanczi
+8016;8185;impassable;-1;-1;-1;-1;-1;;yanczi
+8016;8089;impassable;-1;-1;-1;-1;-1;;yanczi
 -1;-1;;-1;-1;-1;-1;-1;-1 
 

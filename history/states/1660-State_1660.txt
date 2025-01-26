@@ -4,6 +4,10 @@ state={
 	provinces={
 		8654 8655 8715 8750 8819 8845 8846 8983 9053 21614 
 	}
+	history={
+		owner = YRU
+		add_core_of = YRU
+	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural

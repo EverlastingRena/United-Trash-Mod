@@ -4,12 +4,12 @@ bookmarks = {
 		desc = "SOUZ_DESC"
 		date = 0002.1.1.1
 		picture = ""
-		default_country = "TST" 
+		default_country = "YRU" 
 		default = yes
 
-		"TST" = {
-			history = "TST_DESC"
-			ideology = anorchism 
+		"YRU" = {
+			history = "YRU_DESC"
+			ideology = borshewism 
 			ideas={
 			#
 			}

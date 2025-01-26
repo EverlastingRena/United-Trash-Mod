@@ -4,10 +4,6 @@ state={
 	provinces={
 		19371 
 	}
-	history={
-		owner = TST
-		add_core_of = TST
-	}
 	manpower=1
 	impassable = yes
 	buildings_max_level_factor=1.000
