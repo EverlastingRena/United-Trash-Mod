@@ -288,11 +288,11 @@ opinion_modifiers = {
 		value = 25
 	}
 
-	BUL_balkan_communism = {
+	BUL_balkan_borshewism = {
 		value = 25
 	}
 
-	BUL_balkan_communism_trade = {
+	BUL_balkan_borshewism_trade = {
 		value = 35
 		trade = yes
 	}

@@ -2,29 +2,29 @@
 is_enemy_ideology = {
 	OR = {
 		AND = {
-			has_government = communism
+			has_government = borshewism
 			ROOT = {
 				OR = {
-					has_government = fascism
-					has_government = democratic
+					has_government = bidlo
+					has_government = burjuism
 				}
 			}
 		}
 		AND = {
-			has_government = democratic
+			has_government = burjuism
 			ROOT = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = borshewism
+					has_government = bidlo
 				}
 			}
 		}
 		AND = {
-			has_government = fascism
+			has_government = bidlo
 			ROOT = {
 				OR = {
-					has_government = democratic
-					has_government = communism
+					has_government = burjuism
+					has_government = borshewism
 				}
 			}
 		}

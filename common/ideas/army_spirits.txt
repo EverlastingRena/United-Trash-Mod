@@ -1,5 +1,6 @@
 ideas = {
 	academy_spirit = {
+		
 		bold_attack_spirit = {
 			ledger = army
 			available = {
@@ -30,13 +31,28 @@ ideas = {
 				}
 			}
 		}
+		meticulous_preparation_spirit = {
+			ledger = army
+			available = {
+			}
+			modifier = {
+				custom_modifier_tooltip = meticulous_preparation_spirit_tt
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
 		best_of_the_best_spirit = {
 			ledger = army
 			available = {
 			}
-			#visible = { 
-			#	has_government = democratic
-			#}
+			visible = { 
+				has_government = burjuism
+			}
 			modifier = {
 				army_leader_start_level = 2
 				army_intel_to_others = -5.0
@@ -50,10 +66,10 @@ ideas = {
 					NOT = { has_dlc = "No Step Back" }
 				}
 
-				#modifier = {
-				#	factor = 2
-				#	has_government = democratic
-				#}
+				modifier = {
+					factor = 2
+					has_government = burjuism
+				}
 			}
 
 		}
@@ -61,9 +77,9 @@ ideas = {
 			ledger = army
 			available = {
 			}
-			#visible = { 
-			#	has_government = communism
-			#}
+			visible = { 
+				has_government = borshewism
+			}
 			modifier = {
 				army_leader_start_level = 1
 				army_leader_cost_factor = -0.3 
@@ -78,22 +94,22 @@ ideas = {
 					NOT = { has_dlc = "No Step Back" }
 				}
 
-				#modifier = {
-				#	factor = 2
-				#	has_government = communism
-				#}
+				modifier = {
+					factor = 2
+					has_government = borshewism
+				}
 			}
 		}
 		political_loyalty_spirit = {
 			ledger = army
 			available = {
 			}
-			#visible = { 
-			#	OR = {
-			#		has_government = fascism
-			#		has_government = neutrality
-			#	}
-			#}
+			visible = { 
+				OR = {
+					has_government = bidlo
+					has_government = pahanism
+				}
+			}
 			modifier = {
 				military_leader_cost_factor = -0.5
 				party_popularity_stability_factor = 0.15
@@ -107,13 +123,13 @@ ideas = {
 					NOT = { has_dlc = "No Step Back" }
 				}
 
-				#modifier = {
-				#	factor = 2
-				#	OR = {
-				#		has_government = fascism
-				#		has_government = neutrality
-				#	}
-				#}
+				modifier = {
+					factor = 2
+					OR = {
+						has_government = bidlo
+						has_government = pahanism
+					}
+				}
 			}
 		}
 		inventive_leadership_spirit = {
@@ -297,7 +313,7 @@ ideas = {
 
 		relief_of_command_spirit = {
 			ledger = army
-			#visible = { has_government = democratic }
+			visible = { has_government = burjuism }
 			modifier = {
 				experience_gain_army_factor = 0.25
 				army_advisor_cost_factor = -0.5
@@ -310,16 +326,16 @@ ideas = {
 					NOT = { has_dlc = "No Step Back" }
 				}
 
-				#modifier = {
-				#	factor = 2
-				#	has_government = democratic
-				#}
+				modifier = {
+					factor = 2
+					has_government = burjuism
+				}
 			}
 		}
 
 		ideological_loyalty_spirit = {
 			ledger = army
-			#visible = { has_government = communism }
+			visible = { has_government = borshewism }
 			modifier = {
 				pocket_penalty = -0.2
 				weekly_manpower = 500
@@ -332,16 +348,16 @@ ideas = {
 					NOT = { has_dlc = "No Step Back" }
 				}
 
-				#modifier = {
-				#	factor = 2
-				#	has_government = communism
-				#}
+				modifier = {
+					factor = 2
+					has_government = borshewism
+				}
 			}
 		}
 
 		state_serves_the_military_spirit = {
 			ledger = army
-			#visible = { has_government = fascism }
+			visible = { has_government = bidlo }
 			modifier = {
 				political_power_factor = 0.1
 				mobilization_laws_cost_factor = -0.25
@@ -354,10 +370,10 @@ ideas = {
 					NOT = { has_dlc = "No Step Back" }
 				}
 
-				#modifier = {
-				#	factor = 2
-				#	has_government = fascism
-				#}
+				modifier = {
+					factor = 2
+					has_government = bidlo
+				}
 			}
 		}
 

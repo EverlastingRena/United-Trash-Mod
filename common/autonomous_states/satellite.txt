@@ -43,7 +43,7 @@ autonomy_state = {
 				has_dlc = "No Step Back"
 			}
 		}
-		has_government = fascism
+		has_government = bidlo
 		if = {
 		}
 	}

@@ -1,5 +1,100 @@
 technologies = {
 	
+	early_transport_plane = {
+
+		enable_equipments = {
+			transport_plane_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = improved_transport_plane
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_techs_folder
+			position = { x = 1 y = 2 } 
+		}
+		
+		categories = {
+			air_equipment
+			transport_planes_cat
+		}
+		special_project_specialization = { specialization_air }
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	improved_transport_plane = {
+
+		enable_equipments = {
+			transport_plane_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = strategic_airlifter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 1 y = 6 } 
+		}
+		
+		categories = {
+			air_equipment
+			transport_planes_cat
+		}
+		special_project_specialization = { specialization_air }
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	strategic_airlifter = {
+
+		enable_equipments = {
+			transport_plane_equipment_3
+		}
+		
+		research_cost = 2
+		start_year = 1948
+		folder = {
+			name = air_techs_folder
+			position = { x = 1 y = 12 } 
+		}
+		
+		categories = {
+			air_equipment
+			transport_planes_cat
+		}
+		special_project_specialization = { specialization_air }
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+
 	early_fighter = {
 
 		enable_equipments = {
@@ -10,6 +105,8 @@ technologies = {
 			leads_to_tech = fighter1
 			research_cost_coeff = 1
 		}
+
+
 		path = {
 			leads_to_tech = CAS1
 			research_cost_coeff = 1
@@ -20,7 +117,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1897
+		start_year = 1933
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 2 }
@@ -34,6 +131,7 @@ technologies = {
 			mio_cat_all_light_aircraft_and_modules
 
 		}
+		special_project_specialization = { specialization_air }
 		
 		sub_technologies = {
 			cv_early_fighter
@@ -56,13 +154,14 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1897
+		start_year = 1933
 		
 		categories = {
 			naval_air
 			air_equipment
 			mio_cat_all_light_fighter_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1.5
@@ -89,15 +188,14 @@ technologies = {
 		enable_equipments = {
 			fighter_equipment_1
 			
-		}
-	
+		}	
 		path = {
 			leads_to_tech = fighter2
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
-		start_year = 1900
+		start_year = 1936
 
 		folder = {
 			name = air_techs_folder
@@ -111,6 +209,7 @@ technologies = {
 			mio_cat_all_light_fighter_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		sub_technologies = {
 			cv_fighter1
@@ -126,22 +225,22 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1901.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1902.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1903.1.1"
+				date > "1939.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1904.1.1"
+				date > "1940.1.1"
 			}
 		}
 	}
@@ -153,26 +252,17 @@ technologies = {
 		}
 	
 		research_cost = 1 #Carrier Variant
-		start_year = 1900
+		start_year = 1936
 		
 		categories = {
 			naval_air
 			air_equipment
 			mio_cat_all_light_fighter_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 
 			modifier = {
 				factor = 0
@@ -199,7 +289,12 @@ technologies = {
 			fighter_equipment_2
 			
 		}
-	
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_air_jet_engine	
+			}
+		}			
 		path = {
 			leads_to_tech = fighter3
 			research_cost_coeff = 1
@@ -207,14 +302,10 @@ technologies = {
 				
 
 		research_cost = 2
-		start_year = 1904
+		start_year = 1940
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
-		}
-		folder = {
-			name = secret_weapons_folder
-			position = { x = 6 y = 8 }
 		}
 		
 		categories = {
@@ -224,6 +315,7 @@ technologies = {
 			mio_cat_all_light_fighter_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		sub_technologies = {
 			cv_fighter2
@@ -238,29 +330,23 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 0
-				original_tag = GER
-				date < "1905.1.1"
-			}
-
-			modifier = {
 				factor = 1.2
-				date > "1905.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1906.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1907.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1908.1.1"
+				date > "1944.1.1"
 			}
 		}
 	}
@@ -272,37 +358,21 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1904
+		start_year = 1940
 		
 		categories = {
 			naval_air
 			air_equipment
 			mio_cat_all_light_fighter_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2.5
-				tag = JAP
-			}
 
 			modifier = {
-				factor = 10
-				AND = {
-					is_historical_focus_on = yes
-					tag = JAP
-				}
-			}
-			modifier = {
 				factor = 1.5
-				date > "1905.6.1"
+				date > "1941.6.1"
 			}
 
 			modifier = {
@@ -336,7 +406,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1908
+		start_year = 1944
 
 		folder = {
 			name = air_techs_folder
@@ -350,6 +420,7 @@ technologies = {
 			mio_cat_all_light_fighter_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		sub_technologies = {
 			cv_fighter3
@@ -365,22 +436,22 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1909.1.1"
+				date > "1945.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1910.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1911.1.1"
+				date > "1947.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1912.1.1"
+				date > "1948.1.1"
 			}
 		}
 	}
@@ -392,29 +463,21 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1908
+		start_year = 1944
 		
 		categories = {
 			naval_air
 			air_equipment
 			mio_cat_all_light_fighter_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
+
 			modifier = {
 				factor = 1.5
-				date > "1909.1.1"
+				date > "1945.1.1"
 			}
 			modifier = {
 				factor = 2.5
@@ -429,8 +492,19 @@ technologies = {
 	
 	jet_fighter1 = {
 
+		allow = { 	 		
+			ROOT = {
+				is_special_project_completed = sp:sp_air_jet_engine
+			} 
+		}
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_air_axial_jet_engine	
+			}
+		}
 		enable_equipments = {
-				jet_fighter_equipment_1
+			jet_fighter_equipment_1
 		}
 			
 		path = {
@@ -438,12 +512,14 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		dependencies = {
-			jet_engines = 1
+		path = {
+			leads_to_tech = sp_centrifugal_jet_tech
+			research_cost_coeff = 1
 		}
-		
+
+		is_special_project_tech = yes
 		research_cost = 2
-		start_year = 1909
+		start_year = 1945
 
 		folder = {
 			name = air_techs_folder
@@ -456,6 +532,7 @@ technologies = {
 			mio_cat_all_light_fighter_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -463,21 +540,23 @@ technologies = {
 				is_major = yes
 				factor = 2
 			}
-			modifier = {
-				tag = GER
-				factor = 2
-			}
 		}
 	}
 	
 	jet_fighter2 = {
+
+		allow = { 	 		
+			ROOT = {
+				is_special_project_completed = sp:sp_air_axial_jet_engine
+			} 
+		}
 
 		enable_equipments = {
 			jet_fighter_equipment_2
 		}
 		
 		research_cost = 2
-		start_year = 1914
+		start_year = 1950
 
 		folder = {
 			name = air_techs_folder
@@ -490,9 +569,40 @@ technologies = {
 			mio_cat_all_light_fighter_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
-		
+		special_project_specialization = { specialization_air }
+		is_special_project_tech = yes		
 		ai_will_do = {
 			factor = 1
+		}
+	}
+
+	supersonic_fighter1 = {
+		allow_branch = {
+			has_dlc = "Gotterdammerung"		
+		}
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_air_supersonic_jet
+			}
+		}
+		enable_equipments = {
+			supersonic_fighter_equipment_1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+		
+		categories = {
+			light_air
+			jet_technology
+			mio_cat_all_light_fighter_and_modules
+			mio_cat_all_light_aircraft_and_modules
+		}
+		special_project_specialization = { specialization_air }
+		is_special_project_tech = yes		
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	
@@ -501,15 +611,14 @@ technologies = {
 
 		enable_equipments = {
 			CAS_equipment_1
-		}
-	
+		}	
 		path = {
 			leads_to_tech = CAS2
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
-		start_year = 1900
+		start_year = 1936
 
 		folder = {
 			name = air_techs_folder
@@ -527,25 +636,10 @@ technologies = {
 			mio_cat_all_cas_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 100
-				tag = SOV
-			}
-			modifier = {
-				has_war_with = GER
-				tag = SOV
-				factor = 2
-			}
-
 		}
 	}
 	
@@ -556,7 +650,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1900
+		start_year = 1936
 		
 		categories = {
 			naval_air
@@ -564,6 +658,7 @@ technologies = {
 			cas_bomber
 			mio_cat_all_cas_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -572,20 +667,6 @@ technologies = {
 				OR = {
 					has_tech = CAS2
 					is_researching_technology = CAS2
-				}
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -611,7 +692,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1904
+		start_year = 1940
 
 		folder = {
 			name = air_techs_folder
@@ -629,33 +710,17 @@ technologies = {
 			mio_cat_all_cas_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
 			modifier = {
 				has_deployed_air_force_size = {
 					size > 400
 					type = cas
 				}
 				factor = 3
-			}
-
-			modifier = {
-				factor = 2
-				OR = {
-					has_war_with = GER
-					has_war_with = SOV
-				}
-			}
-			
-			modifier = {
-				factor = 3
-				tag = SOV
 			}
 		}
 	}
@@ -667,7 +732,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1904
+		start_year = 1940
 		
 		categories = {
 			naval_air
@@ -675,6 +740,7 @@ technologies = {
 			cas_bomber
 			mio_cat_all_cas_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -683,20 +749,6 @@ technologies = {
 				OR = {
 					has_tech = CAS3
 					is_researching_technology = CAS3
-				}
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -722,7 +774,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1908
+		start_year = 1944
 		folder = {
 			name = air_techs_folder
 			position = { x = -4 y = 8 }
@@ -739,31 +791,17 @@ technologies = {
 			mio_cat_all_cas_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
 			modifier = {
 				has_deployed_air_force_size = {
 					size > 500
 					type = cas
 				}
 				factor = 3
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					has_war_with = GER
-					has_war_with = SOV
-				}
-			}
-			modifier = {
-				factor = 2
-				tag = SOV
 			}
 		}
 	}
@@ -775,7 +813,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1908
+		start_year = 1944
 		
 		categories = {
 			naval_air
@@ -783,23 +821,10 @@ technologies = {
 			cas_bomber
 			mio_cat_all_cas_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
-				}
-			}
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -823,7 +848,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1900
+		start_year = 1936
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 4 }
@@ -840,26 +865,10 @@ technologies = {
 			mio_cat_all_naval_bomber_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
-		
+		special_project_specialization = { specialization_air }
+
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					has_war_with = ENG
-					has_war_with = USA
-					has_war_with = JAP
-				}
-				factor = 3
-			}
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
 		}
 	}
 	
@@ -870,13 +879,14 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1900
+		start_year = 1936
 		
 		categories = {
 			naval_air
 			air_equipment
 			mio_cat_all_naval_bomber_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -886,20 +896,6 @@ technologies = {
 				OR = {
 					has_tech = naval_bomber2
 					is_researching_technology = naval_bomber2
-				}
-			}
-			modifier = {
-				factor = 2.5
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -925,7 +921,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1904
+		start_year = 1940
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 6 }
@@ -942,32 +938,16 @@ technologies = {
 			mio_cat_all_naval_bomber_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1.5
-			modifier = {
-				OR = {
-					has_war_with = ENG
-					has_war_with = USA
-					has_war_with = JAP
-				}
-				factor = 3
-			}
 			modifier = {
 				has_deployed_air_force_size = {
 					size > 500
 					type = naval_bomber
 				}
 				factor = 1.5
-			}
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
 			}
 		}
 	}
@@ -979,13 +959,14 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1904
+		start_year = 1940
 		
 		categories = {
 			naval_air
 			air_equipment
 			mio_cat_all_naval_bomber_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 5 #if you have carriers, you definitely want these!
@@ -995,21 +976,6 @@ technologies = {
 				OR = {
 					has_tech = naval_bomber3
 					is_researching_technology = naval_bomber3
-				}
-			}
-			modifier = {
-				factor = 2.5
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
-					has_war_with = ENG
 				}
 			}
 			modifier = {
@@ -1035,7 +1001,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1908
+		start_year = 1944
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 8 }
@@ -1052,32 +1018,17 @@ technologies = {
 			mio_cat_all_naval_bomber_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
+
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1.5
-			modifier = {
-				OR = {
-					has_war_with = ENG
-					has_war_with = USA
-					has_war_with = JAP
-				}
-				factor = 3
-			}
 			modifier = {
 				has_deployed_air_force_size = {
 					size > 500
 					type = naval_bomber
 				}
 				factor = 1.5
-			}
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
 			}
 		}
 	}
@@ -1089,30 +1040,17 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1908
+		start_year = 1944
 		
 		categories = {
 			naval_air
 			air_equipment
 			mio_cat_all_naval_bomber_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2.5
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
-				}
-			}
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -1145,7 +1083,7 @@ technologies = {
 		#}
 		
 		research_cost = 2
-		start_year = 1897
+		start_year = 1933
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 2 }
@@ -1157,6 +1095,7 @@ technologies = {
 			air_equipment
 			mio_cat_all_medium_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -1167,15 +1106,14 @@ technologies = {
 
 		enable_equipments = {
 			heavy_fighter_equipment_1
-		}
-	
+		}	
 		path = {
 			leads_to_tech = heavy_fighter2
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
-		start_year = 1900
+		start_year = 1936
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 4 }
@@ -1187,6 +1125,7 @@ technologies = {
 			cat_heavy_fighter
 			mio_cat_all_medium_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -1205,7 +1144,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1904
+		start_year = 1940
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 6 }
@@ -1217,6 +1156,7 @@ technologies = {
 			cat_heavy_fighter
 			mio_cat_all_medium_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -1235,7 +1175,7 @@ technologies = {
 		#}
 
 		research_cost = 2
-		start_year = 1908
+		start_year = 1944
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 8 }
@@ -1247,6 +1187,7 @@ technologies = {
 			cat_heavy_fighter
 			mio_cat_all_medium_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -1265,7 +1206,7 @@ technologies = {
 		}
 		allow_branch = { has_dlc = "La Resistance" }
 		research_cost = 2
-		start_year = 1900
+		start_year = 1936
 		folder = {
 			name = air_techs_folder
 			position = { x = 10 y = 4 }
@@ -1277,6 +1218,7 @@ technologies = {
 			cat_scout_plane
 			mio_cat_all_medium_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -1294,10 +1236,6 @@ technologies = {
 				has_tech = CAS1
 				factor = 3
 			}
-			modifier = {
-				factor = 4
-				original_tag = GER
-			}
 		}
 	}
 	
@@ -1308,7 +1246,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1904
+		start_year = 1940
 		folder = {
 			name = air_techs_folder
 			position = { x = 10 y = 6 }
@@ -1320,6 +1258,7 @@ technologies = {
 			cat_scout_plane
 			mio_cat_all_medium_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -1345,15 +1284,14 @@ technologies = {
 		enable_equipments = {
 			tac_bomber_equipment_1
 			
-		}
-	
+		}	
 		path = {
 			leads_to_tech = tactical_bomber2
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-		start_year = 1900
+		start_year = 1936
 
 		folder = {
 			name = air_techs_folder
@@ -1366,6 +1304,7 @@ technologies = {
 			air_equipment
 			mio_cat_all_medium_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -1373,7 +1312,7 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1900.1.1"
+				date > "1936.1.1"
 			}
 			modifier = {
 				has_deployed_air_force_size = {
@@ -1385,13 +1324,13 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1902.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1904.1.1"
+				date > "1940.1.1"
 			}
 		}
 	}
@@ -1406,9 +1345,26 @@ technologies = {
 			leads_to_tech = tactical_bomber3
 			research_cost_coeff = 1
 		}
-		
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_air_jet_engine	
+			}
+		}		
+		on_research_complete = {
+			if = {
+				limit = {
+					has_dlc = "Gotterdammerung"
+				}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_air_bouncing_bomb	
+				}
+			}
+		}
+
 		research_cost = 2
-		start_year = 1904
+		start_year = 1940
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 6 }
@@ -1420,6 +1376,7 @@ technologies = {
 			air_equipment
 			mio_cat_all_medium_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -1427,7 +1384,7 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1904.1.1"
+				date > "1940.1.1"
 			}
 			modifier = {
 				has_deployed_air_force_size = {
@@ -1439,13 +1396,13 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1905.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1908.1.1"
+				date > "1944.1.1"
 			}
 		}
 	}
@@ -1462,7 +1419,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1908
+		start_year = 1944
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 8 }
@@ -1474,6 +1431,7 @@ technologies = {
 			air_equipment
 			mio_cat_all_medium_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
@@ -1481,7 +1439,7 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1908.1.1"
+				date > "1944.1.1"
 			}
 			modifier = {
 				has_deployed_air_force_size = {
@@ -1493,13 +1451,24 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1909.1.1"
+				date > "1945.1.1"
 			}
 		}
 	}
 	
 	jet_tactical_bomber1 = {
 
+		allow = { 	 		
+			ROOT = {
+				is_special_project_completed = sp:sp_air_jet_engine
+			} 
+		}
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_air_axial_jet_engine	
+			}
+		}
 		enable_equipments = {
 			jet_tac_bomber_equipment_1
 		}
@@ -1509,12 +1478,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		dependencies = {
-			jet_engines = 1
-		}
-
 		research_cost = 2
-		start_year = 1909
+		start_year = 1945
 		
 		folder = {
 			name = air_techs_folder
@@ -1527,7 +1492,8 @@ technologies = {
 			tactical_bomber
 			mio_cat_all_medium_aircraft_and_modules
 		}
-		
+		special_project_specialization = { specialization_air }
+		is_special_project_tech = yes
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1539,12 +1505,18 @@ technologies = {
 	
 	jet_tactical_bomber2 = {
 
+		allow = { 	 		
+			ROOT = {
+				is_special_project_completed = sp:sp_air_axial_jet_engine
+			} 
+		}
+
 		enable_equipments = {
 			jet_tac_bomber_equipment_2
 		}
 		
 		research_cost = 2
-		start_year = 1914
+		start_year = 1950
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 14 }
@@ -1556,7 +1528,8 @@ technologies = {
 			tactical_bomber
 			mio_cat_all_medium_aircraft_and_modules
 		}
-		
+		special_project_specialization = { specialization_air }
+		is_special_project_tech = yes
 		ai_will_do = {
 			factor = 1
 		}
@@ -1567,16 +1540,14 @@ technologies = {
 
 		enable_equipments = {
 			strat_bomber_equipment_1
-			
 		}
-	
 		path = {
 			leads_to_tech = strategic_bomber2
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-		start_year = 1900
+		start_year = 1936
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 4 }
@@ -1588,19 +1559,10 @@ technologies = {
 			cat_strategic_bomber
 			mio_cat_all_heavy_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 		}
 	}
 	
@@ -1610,14 +1572,40 @@ technologies = {
 			strat_bomber_equipment_2
 			
 		}
+		on_research_complete = {
+			if = {
+				limit = { has_dlc = "Gotterdammerung"}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_air_intercontinental_bomber	
+				}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_air_mothership_aircraft	
+				}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_air_bouncing_bomb	
+				}	
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_air_earthshaker_bomb	
+				}														
+			}
+		}
 	
 		path = {
 			leads_to_tech = strategic_bomber3
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = reinforced_wings_mothership
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 2
-		start_year = 1904
+		start_year = 1940
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
@@ -1629,19 +1617,10 @@ technologies = {
 			cat_strategic_bomber
 			mio_cat_all_heavy_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 		}
 	}
 	
@@ -1658,7 +1637,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1908
+		start_year = 1944
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 8 }
@@ -1670,34 +1649,27 @@ technologies = {
 			cat_strategic_bomber
 			mio_cat_all_heavy_aircraft_and_modules
 		}
+		special_project_specialization = { specialization_air }
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 		}
 	}
 	
 	jet_strategic_bomber1 = {
+
+		allow = { 	 		
+			ROOT = {
+				is_special_project_completed = sp:sp_air_axial_jet_engine
+			} 
+		}
 
 		enable_equipments = {
 			jet_strat_bomber_equipment_1
 		}
 		
 		research_cost = 2
-		start_year = 1914
-
-		dependencies = {
-			jet_engines = 1
-		}
+		start_year = 1950
 
 		folder = {
 			name = air_techs_folder
@@ -1710,7 +1682,8 @@ technologies = {
 			cat_strategic_bomber
 			mio_cat_all_heavy_aircraft_and_modules
 		}
-		
+		special_project_specialization = { specialization_air }
+		is_special_project_tech = yes
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1730,7 +1703,7 @@ technologies = {
 		}
 				
 		research_cost = 1.5 #Carrier Variant
-		start_year = 1908
+		start_year = 1944
 
 		# only from focus!!! #####
 		allow = {

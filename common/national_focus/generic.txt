@@ -1998,9 +1998,9 @@ focus_tree = {
 		mutually_exclusive = { focus = liberty_ethos}
 		available = {
 			OR = {
-				has_government = fascism
-				has_government = communism
-				has_government = neutrality
+				has_government = bidlo
+				has_government = borshewism
+				has_government = pahanism
 			}
 		}
 		x = -1
@@ -2024,13 +2024,13 @@ focus_tree = {
 
 	focus = {
 		id = nationalism_focus
-		icon = GFX_goal_support_fascism #icon = GFX_goal_tripartite_pact
+		icon = GFX_goal_support_bidlo #icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = collectivist_ethos }
 		mutually_exclusive = { focus = internationalism_focus }
 		available = {
 			OR = {
-				has_government = fascism
-				has_government = neutrality
+				has_government = bidlo
+				has_government = pahanism
 			}
 		}
 		x = -2
@@ -2057,17 +2057,17 @@ focus_tree = {
 	
 	focus = {
 		id = internationalism_focus
-		icon = GFX_goal_support_communism #icon = GFX_goal_tripartite_pact
+		icon = GFX_goal_support_borshewism #icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = collectivist_ethos }
 		mutually_exclusive = { focus = nationalism_focus }
 		available = {
 			if = {
 				limit = { original_tag = CHI }
-				has_government = communism
+				has_government = borshewism
 				else = {
 					OR = {
-						has_government = communism
-						has_government = neutrality
+						has_government = borshewism
+						has_government = pahanism
 					}
 				}
 			}
@@ -2101,8 +2101,8 @@ focus_tree = {
 		mutually_exclusive = { focus = collectivist_ethos }
 		available = {
 			OR = {
-				has_government = democratic
-				has_government = neutrality
+				has_government = burjuism
+				has_government = pahanism
 			}
 		}
 		x = 1
@@ -2143,8 +2143,8 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = neutrality_idea }
-				remove_ideas = neutrality_idea
+				limit = { has_idea = pahanism_idea }
+				remove_ideas = pahanism_idea
 			}			
 			add_ideas = militarism_focus
 			army_experience = 20
@@ -2171,8 +2171,8 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = neutrality_idea }
-				remove_ideas = neutrality_idea
+				limit = { has_idea = pahanism_idea }
+				remove_ideas = pahanism_idea
 			}		
 			add_political_power = 200
 			add_ideas = idea_political_correctness
@@ -2180,8 +2180,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = neutrality_focus
-		icon = GFX_goal_generic_neutrality_focus
+		id = pahanism_focus
+		icon = GFX_goal_generic_pahanism_focus
 		prerequisite = { focus = liberty_ethos }
 		mutually_exclusive = { focus = interventionism_focus }
 		x = 0
@@ -2199,8 +2199,8 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { NOT = { has_idea = neutrality_idea } }
-				add_ideas = neutrality_idea
+				limit = { NOT = { has_idea = pahanism_idea } }
+				add_ideas = pahanism_idea
 			}
 			add_political_power = 150
 		}
@@ -2210,7 +2210,7 @@ focus_tree = {
 		id = interventionism_focus
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = liberty_ethos }
-		mutually_exclusive = { focus = neutrality_focus }
+		mutually_exclusive = { focus = pahanism_focus }
 		x = 2
 		y = 1
 		relative_position_id = liberty_ethos
@@ -2227,8 +2227,8 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = neutrality_idea }
-				remove_ideas = neutrality_idea
+				limit = { has_idea = pahanism_idea }
+				remove_ideas = pahanism_idea
 			}	
 			set_rule = { can_send_volunteers = yes }
 			add_political_power = 150
@@ -2255,16 +2255,16 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = military_youth_focus
 			if = {
-				limit = { has_government = fascism }
+				limit = { has_government = bidlo }
 				add_popularity = {
-					ideology = fascism
+					ideology = bidlo
 					popularity = 0.2
 				}
 			}
 			if = {
-				limit = { has_government = communism }
+				limit = { has_government = borshewism }
 				add_popularity = {
-					ideology = communism
+					ideology = borshewism
 					popularity = 0.2
 				}
 			}
@@ -2274,10 +2274,10 @@ focus_tree = {
 	focus = {
 		id = deterrence
 		icon = GFX_goal_generic_defence
-		prerequisite = { focus = neutrality_focus }
+		prerequisite = { focus = pahanism_focus }
 		x = 0
 		y = 1
-		relative_position_id = neutrality_focus
+		relative_position_id = pahanism_focus
 		cost = 10
 		
 		ai_will_do = {
@@ -2413,7 +2413,7 @@ focus_tree = {
 			custom_effect_tooltip = why_we_fight_effect
 			hidden_effect = {
 				if = {
-					limit = { NOT = { has_idea = neutrality_idea } }
+					limit = { NOT = { has_idea = pahanism_idea } }
 					set_rule = { can_create_factions = no }
 				}			
 			}
@@ -2442,16 +2442,16 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = political_commissars_focus
 			if = {
-				limit = { has_government = fascism }
+				limit = { has_government = bidlo }
 				add_popularity = {
-					ideology = fascism
+					ideology = bidlo
 					popularity = 0.2
 				}
 			}
 			if = {
-				limit = { has_government = communism }
+				limit = { has_government = borshewism }
 				add_popularity = {
-					ideology = communism
+					ideology = borshewism
 					popularity = 0.2
 				}
 			}

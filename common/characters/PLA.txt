@@ -1,0 +1,17 @@
+characters={
+	PLA_plastic_putin={
+		name="Plastic Putin"
+		portraits={
+			civilian={
+				large="gfx/leaders/PLA/Portrait_Plastic_Putin.dds"
+			}
+		}
+		country_leader={
+			ideology=imperial_putinism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+}
+
+

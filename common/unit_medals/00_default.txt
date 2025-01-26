@@ -28,13 +28,13 @@ unit_medals = {
 	
 	### Generic Democratic
 	
-	democratic_gallantry = {
+	burjuism_gallantry = {
 		
 		available = { 
-			has_government = democratic 
+			has_government = burjuism 
 		}
 		frame = 1
-		icon = "GFX_medal_icon_democratic"
+		icon = "GFX_medal_icon_burjuism"
 	
 		cost = @cost
 		
@@ -48,13 +48,13 @@ unit_medals = {
 		
 	}
 	
-	democratic_honor = {
+	burjuism_honor = {
 		
 		available = { 
-			has_government = democratic 
+			has_government = burjuism 
 		}
 		frame = 2
-		icon = "GFX_medal_icon_democratic"
+		icon = "GFX_medal_icon_burjuism"
 	
 		cost = @cost
 		
@@ -68,13 +68,13 @@ unit_medals = {
 		
 	}
 	
-	democratic_war_cross = {
+	burjuism_war_cross = {
 		
 		available = { 
-			has_government = democratic
+			has_government = burjuism
 		}
 		frame = 3
-		icon = "GFX_medal_icon_democratic"
+		icon = "GFX_medal_icon_burjuism"
 	
 		cost = @cost
 		
@@ -89,13 +89,13 @@ unit_medals = {
 		
 	}
 	
-	democratic_lion = {
+	burjuism_lion = {
 		
 		available = { 
-			has_government = democratic
+			has_government = burjuism
 		}
 		frame = 4
-		icon = "GFX_medal_icon_democratic"
+		icon = "GFX_medal_icon_burjuism"
 	
 		cost = @cost
 		
@@ -114,10 +114,10 @@ unit_medals = {
 	communist_service_medal = {
 		
 		available = { 
-			has_government = communism
+			has_government = borshewism
 		}
 		frame = 1
-		icon = "GFX_medal_icon_communism"
+		icon = "GFX_medal_icon_borshewism"
 	
 		cost = @cost
 		
@@ -135,10 +135,10 @@ unit_medals = {
 	communist_red_star = {
 		
 		available = { 
-			has_government = communism
+			has_government = borshewism
 		}
 		frame = 2
-		icon = "GFX_medal_icon_communism"
+		icon = "GFX_medal_icon_borshewism"
 	
 		cost = @cost
 		
@@ -156,10 +156,10 @@ unit_medals = {
 	communist_merit_medal = {
 		
 		available = { 
-			has_government = communism
+			has_government = borshewism
 		}
 		frame = 3
-		icon = "GFX_medal_icon_communism"
+		icon = "GFX_medal_icon_borshewism"
 	
 		cost = @cost
 		
@@ -176,10 +176,10 @@ unit_medals = {
 	communist_hero_of_revolution = {
 		
 		available = { 
-			has_government = communism
+			has_government = borshewism
 		}
 		frame = 4
-		icon = "GFX_medal_icon_communism"
+		icon = "GFX_medal_icon_borshewism"
 	
 		cost = @cost
 		
@@ -195,13 +195,13 @@ unit_medals = {
 	
 	### Generic Fascism
 	
-	fascism_bravery = {
+	bidlo_bravery = {
 		
 		available = { 
-			has_government = fascism
+			has_government = bidlo
 		}
 		frame = 1
-		icon = "GFX_medal_icon_fascism"
+		icon = "GFX_medal_icon_bidlo"
 		
 		cost = @cost
 		
@@ -215,13 +215,13 @@ unit_medals = {
 		
 	}
 	
-	fascism_merit = {
+	bidlo_merit = {
 		
 		available = { 
-			has_government = fascism
+			has_government = bidlo
 		}
 		frame = 2
-		icon = "GFX_medal_icon_fascism"
+		icon = "GFX_medal_icon_bidlo"
 		
 		cost = @cost
 		
@@ -235,13 +235,13 @@ unit_medals = {
 		
 	}
 	
-	fascism_order_brave = {
+	bidlo_order_brave = {
 		
 		available = { 
-			has_government = fascism
+			has_government = bidlo
 		}
 		frame = 3
-		icon = "GFX_medal_icon_fascism"
+		icon = "GFX_medal_icon_bidlo"
 		
 		cost = @cost
 		
@@ -256,13 +256,13 @@ unit_medals = {
 		
 	}
 	
-	fascism_heroism = {
+	bidlo_heroism = {
 		
 		available = { 
-			has_government = fascism
+			has_government = bidlo
 		}
 		frame = 4
-		icon = "GFX_medal_icon_fascism"
+		icon = "GFX_medal_icon_bidlo"
 	
 		cost = @cost
 		
@@ -281,7 +281,7 @@ unit_medals = {
 	neutral_bravery = {
 		
 		available = { 
-			has_government = neutrality
+			has_government = pahanism
 		}
 		frame = 1
 		icon = "GFX_medal_icon_default"
@@ -302,7 +302,7 @@ unit_medals = {
 	neutral_military_order = {
 		
 		available = { 
-			has_government = neutrality
+			has_government = pahanism
 		}
 		frame = 2
 		icon = "GFX_medal_icon_default"
@@ -323,7 +323,7 @@ unit_medals = {
 	neutral_sword = {
 		
 		available = { 
-			has_government = neutrality
+			has_government = pahanism
 		}
 		frame = 3
 		icon = "GFX_medal_icon_default"
@@ -343,7 +343,7 @@ unit_medals = {
 	neutral_virtue = {
 		
 		available = { 
-			has_government = neutrality
+			has_government = pahanism
 		}
 		frame = 4
 		icon = "GFX_medal_icon_default"

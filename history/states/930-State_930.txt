@@ -4,7 +4,6 @@ state={
 	history = {
 		victory_points = { 13134 5 }#Богородское
 		victory_points = { 13860 3 }#Сусанино
-		victory_points = { 14517 1 }#Алеевка
 		victory_points = { 14517 2 }#Тыр
 		victory_points = { 13833 1 }#Джаорэ
 		victory_points = { 13342 2 }#Савинское

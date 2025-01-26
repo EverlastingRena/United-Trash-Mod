@@ -19,6 +19,7 @@ sub_units = {
 		
 		categories = {
 			category_front_line
+			category_cavalry
 			category_army
 		}
 
@@ -29,14 +30,14 @@ sub_units = {
 		max_organisation = 70
 		max_strength = 25
 		default_morale = 0.3
-		manpower = 500
+		manpower = 1000
 
 		#Misc Abilities
 		maximum_speed = 0.6
 		training_time = 120		
 		weight = 0.5
 		
-		supply_consumption = 0.12
+		supply_consumption = 0.06
 
 		#Offensive Abilities
 		suppression = 2
@@ -86,6 +87,7 @@ sub_units = {
 		
 		categories = {
 			category_front_line
+			category_cavalry
 			category_army
 		}
 		
@@ -95,7 +97,7 @@ sub_units = {
 		max_organisation = 70
 		max_strength = 30
 		default_morale = 0.3
-		manpower = 500
+		manpower = 1000
 
 		#Misc Abilities
 		maximum_speed = 0.4

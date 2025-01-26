@@ -683,7 +683,7 @@ generic_medium_tanks = {
 		}
 		modifier = {
 			num_of_factories < 50
-			factor = 0
+			factor = 0.5
 		}
 	}
 
@@ -2112,7 +2112,7 @@ generic_super_heavy_tanks = {
 		priority = {
 			factor = 10
 			modifier = { 
-				has_government = fascism
+				has_government = bidlo
 				factor = 5
 			}
 			

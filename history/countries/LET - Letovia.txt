@@ -4,14 +4,7 @@ oob = "LET_0002"
 
 set_research_slots = 3
 add_ideas = {
-	LET_Peremiriye
-	LET_Zhelezniy_Zanoves
-	LET_Nothing_To_Lose
-	LET_Sistema
-	LET_Corp
-	LET_Edinstvo_8
-	closed_economy
-	tot_economic_mobilisation
+	
 }
 
 
@@ -59,44 +52,3 @@ set_popularities = {
 	pahanism = 10
 }
 
-recruit_character = LET_ГРЯЗНЫЙ_ЧИТЕР_ЭТОГО__ПУТИ_НЕТ_В_ИГРЕ
-recruit_character = LET_Егор_Летов
-recruit_character = LET_Эдуард_Лимонов
-recruit_character = LET_Кузя_УО_Рябинов
-recruit_character = LET_Игорь_Жевтун
-recruit_character = LET_Евгений_Махно_Пьянов
-recruit_character = LET_Наталья_Чумакова
-recruit_character = LET_Сергей_Летов
-recruit_character = LET_Дмитрий_Язов
-recruit_character = LET_Коллективный_Рабочий_Совет
-recruit_character = LET_Греггори_Ли
-recruit_character = LET_Трипутень
-recruit_character = LET_Алунья
-recruit_character = LET_Буэнавентура_Дуррути
-recruit_character = LET_Бэнес_Айо
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-recruit_character = AAA_PUSTYSHKA

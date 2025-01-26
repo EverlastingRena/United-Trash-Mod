@@ -1,4 +1,4 @@
-capital = 3449
+capital = 2500
 set_convoys = 0
 set_research_slots = 2
 set_stability = 0.5
@@ -12,7 +12,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = anorchism 
+	ruling_party = borshewism
 	last_election = "1983.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -61,3 +61,5 @@ recruit_character = TST_5_high_command
 recruit_character = TST_6_high_command
 recruit_character = TST_7_high_command
 recruit_character = TST_8_high_command
+
+

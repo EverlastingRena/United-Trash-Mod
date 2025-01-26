@@ -23,16 +23,16 @@ characters={
 			desc = YRU_Dmitry_Derevitsky_monarcho_borshevism_DESC
 		}
 	}
-	YRU_Dmitry_Dmitrievich_Zhvania_anarcho_communism = { 
-		name = YRU_Dmitry_Dmitrievich_Zhvania_anarcho_communism
+	YRU_Dmitry_Dmitrievich_Zhvania_anarcho_borshewism = { 
+		name = YRU_Dmitry_Dmitrievich_Zhvania_anarcho_borshewism
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YRU/Dmitry_Dmitrievich_Zhvania_anarcho_communism.dds"
+				large = "gfx/leaders/YRU/Dmitry_Dmitrievich_Zhvania_anarcho_borshewism.dds"
 			}
 		}
 		country_leader = {
-			ideology = anarcho_communism
-			desc = YRU_Dmitry_Dmitrievich_Zhvania_anarcho_communism_DESC
+			ideology = anarcho_borshewism
+			desc = YRU_Dmitry_Dmitrievich_Zhvania_anarcho_borshewism_DESC
 		}
 	}
 	YRU_Nikolai_Ananyevich_Degtyarenko_orthodox_borshewism = { 
@@ -180,3 +180,4 @@ characters={
 		}
 	}
 }
+

@@ -3,11 +3,6 @@
 #	tac_bomber_equipment = {
 #		year = 1933
 #
-#		can_be_produced = {
-#			NOT = {
-#				has_idea = BUL_army_restrictions
-#			}
-#		}
 #
 #		is_archetype = yes
 #		is_convertable = yes
@@ -161,12 +156,6 @@
 #	jet_tac_bomber_equipment = {
 #		year = 1933
 #
-#		can_be_produced = {
-#			NOT = {
-#				has_idea = BUL_army_restrictions
-#			}
-#		}
-#
 #		is_archetype = yes
 #		is_convertable = yes
 #		picture = archetype_strat_bomber_equipment			
@@ -256,11 +245,6 @@
 #	heavy_fighter_equipment = {
 #		year = 1933
 #
-#		can_be_produced = {
-#			NOT = {
-#				has_idea = BUL_army_restrictions
-#			}
-#		}
 #
 #		is_archetype = yes
 #		is_convertable = yes

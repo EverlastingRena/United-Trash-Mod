@@ -1,7 +1,7 @@
 characters={
 	TST_1_advisor_civilian={
 		allowed_civil_war = {
-			has_government = communism
+			has_government = borshewism
 		}
 		advisor={
 			slot = political_advisor
@@ -15,7 +15,7 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = communism
+					has_government = borshewism
 				}
 			}
 		}
@@ -27,7 +27,7 @@ characters={
 	}
 	TST_2_advisor_civilian={
 		allowed_civil_war = {
-			has_government = democratic
+			has_government = burjuism
 		}
 		advisor={
 			slot = political_advisor
@@ -37,11 +37,11 @@ characters={
 				always = yes
 			}
 			traits = {
-				democratic_reformer
+				burjuism_reformer
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = burjuism
 				}
 			}
 		}
@@ -53,7 +53,7 @@ characters={
 	}
 	TST_3_advisor_civilian={
 		allowed_civil_war = {
-			has_government = fascism
+			has_government = bidlo
 		}
 		advisor={
 			slot = political_advisor
@@ -67,7 +67,7 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = bidlo
 				}
 			}
 		}
@@ -79,7 +79,7 @@ characters={
 	}
 	TST_4_advisor_civilian={
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = pahanism
 		}
 		advisor={
 			slot = political_advisor
@@ -93,7 +93,7 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = neutrality
+					has_government = pahanism
 				}
 			}
 		}
@@ -783,3 +783,4 @@ characters={
 		}
 	}
 }
+

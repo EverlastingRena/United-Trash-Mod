@@ -4,86 +4,63 @@ ideologies = {
 	
 	types = {
 			
-			anarcho_communism = {
-				color = { 173 7 7 }
-			}
-			
 			anarcho_borshewism = {
-				color = { 194 27 25 }
 			}
-			
+						
 			anarcho_bund = {
-				color = { 168 40 40 }
 			}
 			
 			religious_anorchism = {
-				color = { 184 62 62 }
 				can_be_randomly_selected = no
 			}
 			
 			anarcho_nihilism = {
-				color = { 115 70 70 }
 				can_be_randomly_selected = no
 			}
 			
 			philosophic_anorchism = {
-				color = { 143 40 40 }
 				can_be_randomly_selected = no
 			}
 			
 			anarcho_egoism = {
-				color = { 54 86 99 }
 				can_be_randomly_selected = no
 			}
 			
 			post_leftism = {
-				color = { 50 90 50 }
 				can_be_randomly_selected = no
 			}
 			
 			anarcho_primitivism = {
-				color = { 32 92 17 }
 				can_be_randomly_selected = no
 			}
 
 			eco_anorchism = {
-				color = { 66 133 65 }
 			}
 			
 			techno_anorchism = {
-				color = { 77 115 117 }
-				can_be_randomly_selected = no
 			}
 			
 			pirate_anorchism = {
-				color = { 59 48 48 }
-				can_be_randomly_selected = no
 			}
 			
 			market_anorchism = {
-				color = { 176 79 23 }
 			}
 			
 			national_anarchism = {
-				color = { 79 66 56 }
 			}
 			
 			antijapanism = {
-				color = { 66 60 55 }
 				can_be_randomly_selected = no
 			}
 
 			terpila_anorchism = {
-				color = { 161 133 133 }
 			}
 			
 			analchism = {
-				color = { 189 143 143 }
 				can_be_randomly_selected = no
 			}
 			
 			anarchism_bez_nikhuya = {
-				color = { 10 10 10 }
 			}
 		}
 		
@@ -131,64 +108,50 @@ ideologies = {
 		types = {
 			
 			liberakha = {
-				color = { 97 183 232 }
 			}
 			
 			national_liberakha = {
-				color = { 63 147 196 }
 			}
 			
 			conserva = {
-				color = { 32 120 171 }
 			}
 			
 			american_dream = {
-				color = { 132 181 209 }
 				can_be_randomly_selected = no
 			}
 			
 			atlantism = {
-				color = { 65 81 224 }
 			}
 			
 			social_dermocracy = {
-				color = { 242 119 164 }
 			}
 			
 			sjw_system = {
-				color = { 224 162 185 }
 				can_be_randomly_selected = no
 			}
 			
 			greens = {
-				color = { 120 199 91 }
 			}
 			
 			zoomerism = {
-				color = { 100 232 201 }
 			}
 
 			onlyfansism = {
-				color = { 164 219 219 }
 			}
 			
 			pedophilia = {
-				color = { 224 237 81 }
 				can_be_randomly_selected = no
 			}
 			
 			objectivism = {
-				color = { 162 173 31 }
 				can_be_randomly_selected = no
 			}
 			
 			right_accelerationism = {
-				color = { 85 120 173 }
 				can_be_randomly_selected = no
 			}
 			
 			demshiza = {
-				color = { 53 67 117 }
 				can_be_randomly_selected = no
 			}
 		}
@@ -237,123 +200,98 @@ ideologies = {
 		types = {
 			
 			mraxism = {
-				color = { 245 69 69 }
 			}
 			
 			orthodox_borshewism = {
-				color = { 219 22 22 }
 			}
 			
 			gribonism = {
-				color = { 255 112 112 }
 			}
 			
 			left_avangardism = {
-				color = { 255 3 3 }
 				can_be_randomly_selected = no
 			}
 			
 			vperedism = {
-				color = { 250 85 85 }
 				can_be_randomly_selected = no
 			}
 			
 			sralinism = {
-				color = { 89 36 36 }
 				can_be_randomly_selected = no
 			}
 			
 			samostiynost = {
-				color = { 207 41 61 }
 				can_be_randomly_selected = no
 			}
 			
 			trotskism = {
-				color = { 227 95 95 }
 			}
 			
 			posadism = {
-				color = { 222 67 67 }
 				can_be_randomly_selected = no
 			}
 			
 			polpotism = {
-				color = { 120 0 0 }
 				can_be_randomly_selected = no
 			}
 			
 			borshewic_nationalism = {
-				color = { 227 66 52 }
 				can_be_randomly_selected = no
 			}
 			
 			monarcho_borshevism = {
-				color = { 245 73 105 }
 				can_be_randomly_selected = no
 			}
 			
-			war_communism = {
-				color = { 171 62 62 }
+			war_borshewism = {
 			}
 			
 			religious_borshewism = {
-				color = { 255 95 95 }
 				can_be_randomly_selected = no
 			}
 			
 			left_dolbolsaviye = {
-				color = { 171 32 32 }
 				can_be_randomly_selected = no
 			}
 			
-			sex_communism = {
-				color = { 117 50 50 }
+			sex_borshewism = {
 				can_be_randomly_selected = no
 			}
 			
 			donat_borshewism = {
-				color = { 196 43 61 }
 			}
 			
 			alko_borshewism = {
-				color = { 204 51 51 }
 				can_be_randomly_selected = no
 			}
 			
 			dermokradic_borshewism = {
-				color = { 219 103 103 }
 			}
 			
 			utopianism = {
-				color = { 242 109 109 }
 				can_be_randomly_selected = no
 			}
 			
 			nostalgic_borshewism = {
-				color = { 179 55 55 }
 				can_be_randomly_selected = no
 			}
 			
 			narodnichestvo = {
-				color = { 212 78 78 }
 				can_be_randomly_selected = no
 			}
 			
 			tradeunionism = {
-				color = { 184 35 35 }
 			}
 			
 			revolutionary_front = {
-				color = { 250 7 7 }
+				can_be_randomly_selected = no
 			}
 			
 			angsoc = {
-				color = { 41 4 4 }
 				can_be_randomly_selected = no
 			}
 			
 			gnostic_liberation = {
-				color = { 250, 247, 247 }
 				can_be_randomly_selected = no
 			}
 		}
@@ -401,137 +339,105 @@ ideologies = {
 		types = {
 		
 			nazbol = {
-				color = { 94 5 5 }
 				can_be_randomly_selected = no
 			}
 
 			strasserism = {
-				color = { 66 18 18 }
 				can_be_randomly_selected = no
 			}
 			
 			grazhdane_sssr = {
-				color = { 59 23 23 }
 				can_be_randomly_selected = no
 			}
 			
 			right_dolboslaviye = {
-				color = { 153 107 87 }
 				can_be_randomly_selected = no
 			}
 			
 			mrakobesiye = {
-				color = { 89 81 78 }
 				can_be_randomly_selected = no
 			}
 			
 			occultism = {
-				color = { 92 52 102 }
 				can_be_randomly_selected = no
 			}
 			
 			abdulovera = {
-				color = { 145 74 52 }
 				can_be_randomly_selected = no
 			}
 			
 			fashiki = {
-				color = { 110 67 36 }
 			}
 			
 			nazi = {
-				color = { 64 29 4 }
 			}
 			
 			lmaoburgsis = {
-				color = { 67 10 82 }
 				can_be_randomly_selected = no
 			}
 		
 			toleratedictatorship = {
-				color = { 97 58 13 }
 				can_be_randomly_selected = no
 			}
 			
 			trap_fashiki = {
-				color = { 79 27 58 }
 				can_be_randomly_selected = no
 			}
 			
 			radical_feminism = {
-				color = { 105 0 63 }
 				can_be_randomly_selected = no
 			}
 			
 			cute_monarchism = {
-				color = { 229 39 198 }
 				can_be_randomly_selected = no
 			}
 			
 			chornaya_sotnya = {
-				color = { 130 60 30 }
 				can_be_randomly_selected = no
 			}
 			
 			national_burzhuism = {
-				color = { 77 67 32 }
 			}
 			
 			altright = {
-				color = { 49 71 39 }
 			}
 			
 			social_darwinism = {
-				color = { 87 60 42 }
 			}
 			
 			senator_armstrong = {
-				color = { 102 53 33 }
 				can_be_randomly_selected = no
 			}
 			
 			iron_dimon = {
-				color = { 54 49 49 }
 				can_be_randomly_selected = no
 			}
 			
 			eco_fashiki = {
-				color = { 37 54 25 }
 				can_be_randomly_selected = no
 			}
 			
 			gopniki = {
-				color = { 61 45 38 }
 				can_be_randomly_selected = no
 			}
 			
 			ebengrad_system = {
-				color = { 66 77 49 }
 				can_be_randomly_selected = no
 			}
 			
 			illuminatism = {
-				color = { 75 89 37 }
 				can_be_randomly_selected = no
 			}
 			
 			horde = {
-				color = { 77 50 50 }
 				can_be_randomly_selected = no
 			}
 			
 			chris_chan_system = {
-				color = { 120 118 76 }
-				can_be_randomly_selected = no
-			}
-			
-			nuclear_destruction = {
-				color = { 48 8 8 }
 				can_be_randomly_selected = no
 			}
 			
 			demiurgism = {
-				color = { 46 23 27 }
 				can_be_randomly_selected = no
 			}
 		}
@@ -580,111 +486,88 @@ ideologies = {
 		types = {
 		
 			gachism = {
-				color = { 156 112 120 }
 				can_be_randomly_selected = no
 			}
 			
 			flexism = {
-				color = { 98 93 112 }
 				can_be_randomly_selected = no
 			}
 			
 			radicalcentrism = {
-				color = { 122 122 122 }
 			}
 			
 			dumerism = {
-				color = { 79 79 79 }
 			}
 			
 			postironism = {
-				color = { 235 148 148 }
 				can_be_randomly_selected = no
 			}
 			
 			avangardism = {
-				color = { 204 149 149 }
 				can_be_randomly_selected = no
 			}
 		
 			typicalauthoritarism = {
-				color = { 102 80 74 }
 			}
 			
 			junta = {
-				color = { 115 108 115 }
 			}
 			
 			mercs = {
-				color = { 130 130 110 }
 				can_be_randomly_selected = no
 			}
 			
 			occupation_regime = {
-				color = { 103 102 90 }
 				can_be_randomly_selected = no
 			}
 			
 			manyarchism = {
-				color = { 77 70 77 }
 			}
 			
 			russian_traditions = {
-				color = { 186 69 19 }
 				can_be_randomly_selected = no
 			}
 			
 			verunstvo = {
-				color = { 196 192 190 }
 				can_be_randomly_selected = no
 			}
 			
 			techodrochka = {
-				color = { 141 150 158 }
 				can_be_randomly_selected = no
 			}
 			
 			tsardemocrasy = {
-				color = { 87 98 120 }
 			}
 		
 			longism = {
-				color = { 60 83 110 }
 				can_be_randomly_selected = no
 			}
 			
 			glongism = {
-				color = { 99 107 135 }
 				can_be_randomly_selected = no
 			}
 			
 			anarchopunk = {
-				color = { 56 42 42 }
 				can_be_randomly_selected = no
 			}
 			
 			anarcho_manyarchism = {
-				color = { 66 32 50 }
 				can_be_randomly_selected = no
 			}
 			
 			shueppsh = {
-				color = { 69 58 48 }
 				can_be_randomly_selected = no
 			}
 			
 			dvacherism = {
-				color = { 247 153 45 }
 				can_be_randomly_selected = no
 			}
     
             trash_politics = {
-				color = { 96 105 64 }
 			}
 			
 			razumism = {
-				color = { 156 65 125 }
-				can_be_randomly_selected = no
+			  can_be_randomly_selected = no
 			}
 		}
 
@@ -731,74 +614,58 @@ ideologies = {
 		types = {
 
 			imperial_putinism = {
-				color = { 62 21 229 }
 				can_be_randomly_selected = no
 			} 
 			
 			colonial_putinism = {
-				color = { 42 11 163 }
-				can_be_randomly_selected = no
 			}
 			
 			eltsynism = {
-				color = { 115 119 250 }
 				can_be_randomly_selected = no
 			}
 			
 			plastic_putinism = {
-				color = { 57 84 153 }
 				can_be_randomly_selected = no
 			}
 			
 			oligarhiya = {
-				color = { 38 26 163 }
 			}
 			
 			prikhvatocracy = {
-				color = { 18 9 122 }
 			}
 			
 			esoteric_putinism = {
-				color = { 55 40 112 }
 				can_be_randomly_selected = no
 			}
 			
 			atomic_orthodoxy = {
-				color = { 69 83 135 }
 				can_be_randomly_selected = no
 			}
 			
 			japanese_putinism = {
-				color = { 245 142 241 }
 				can_be_randomly_selected = no
 			}
 			
 			western_putinism = {
-				color = { 84 54 201 }
 				can_be_randomly_selected = no
 			}
 			
 			duginism = {
-				color = { 16 67 79 }
 				can_be_randomly_selected = no
 			}
 			
 			left_putinism = {
-				color = { 168 64 76 }
 				can_be_randomly_selected = no
 			}
 			
 			securocracy = {
-				color = { 25 25 64 }
 			}
 			
 			roskomnadzor = {
-				color = { 42 66 127 }
 				can_be_randomly_selected = no
 			}
 			
 			morgenshterism = {
-				color = { 20 94 163 }
 				can_be_randomly_selected = no
 			}
 		}

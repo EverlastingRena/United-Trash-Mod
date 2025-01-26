@@ -136,17 +136,17 @@ opinion_modifiers = {
 
 ### Generic Modifiers ###
 
-	SWI_mild_breach_of_neutrality = {
+	SWI_mild_breach_of_pahanism = {
 		value = -10
 		months = 6
 	}
 
-	SWI_considerable_breach_of_neutrality = {
+	SWI_considerable_breach_of_pahanism = {
 		value = -20
 		years = 1
 	}
 
-	SWI_grave_breach_of_neutrality = {
+	SWI_grave_breach_of_pahanism = {
 		value = -30
 		years = 2
 	}
@@ -170,7 +170,7 @@ opinion_modifiers = {
 		years = 2
 	}
 
-	SWI_banned_communism_good = {
+	SWI_banned_borshewism_good = {
 		value = 30 
 		years = 2
 	}
@@ -199,7 +199,7 @@ opinion_modifiers = {
 		years = 1 
 	}
 	
-	SWI_fascism_friendly_confederation_president = {
+	SWI_bidlo_friendly_confederation_president = {
 		value = 50 
 	}
 
@@ -213,7 +213,7 @@ opinion_modifiers = {
 		years = 2	
 	}
 
-	SWI_abandoned_neutrality = {
+	SWI_abandoned_pahanism = {
 		value = -10 
 		years = 1
 	}
