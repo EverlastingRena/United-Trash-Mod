@@ -4,6 +4,10 @@ state={
 	provinces={
 		9694 9752 9798 9863 9975 10048 10067 10517 
 	}
+	history={
+		owner = ASR
+		add_core_of = ASR
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

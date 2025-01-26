@@ -4,6 +4,10 @@ state={
 	provinces={
 		18800 
 	}
+	history={
+		owner = MRM
+		add_core_of = MRM
+	}
 	manpower=1
 	impassable = yes
 	buildings_max_level_factor=1.000

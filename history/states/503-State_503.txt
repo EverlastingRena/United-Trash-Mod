@@ -4,6 +4,10 @@ state={
 	provinces={
 		16603 16853 16854 17080 17138 
 	}
+	history={
+		owner = EBN
+		add_core_of = EBN
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

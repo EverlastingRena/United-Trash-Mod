@@ -5,6 +5,10 @@ state={
 	provinces={
 		11753 11855 11876 11948 12232 12256 12284 12328 12421 12695 12744 12920 
 	}
+	history={
+		owner = BRY
+		add_core_of = BRY
+	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural

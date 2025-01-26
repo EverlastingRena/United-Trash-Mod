@@ -4,6 +4,10 @@ state={
 	provinces={
 		8283 8326 8371 8416 8527 8598 8762 8794 9048 9049 
 	}
+	history={
+		owner = TAN
+		add_core_of = TAN
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

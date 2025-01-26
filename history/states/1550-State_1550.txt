@@ -4,6 +4,10 @@ state={
 	provinces={
 		9131 9222 9315 9396 9607 9668 9909 
 	}
+	history={
+		owner = TAN
+		add_core_of = TAN
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

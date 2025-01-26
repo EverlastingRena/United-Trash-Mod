@@ -4,6 +4,10 @@ state={
 	provinces={
 		19417  
 	}
+	history={
+		owner = NRL
+		add_core_of = NRL
+	}
 	manpower=1
 	impassable = yes
 	buildings_max_level_factor=1.000

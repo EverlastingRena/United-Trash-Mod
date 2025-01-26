@@ -2,5 +2,5 @@
 graphical_culture = eastern_european_gfx
 graphical_culture_2d = eastern_european_2d
 
-color = hex { 0xe5e89b } 
-color_ui = hex { 0xe5e89b }
+color = rgb { 229 232 155 } 
+color_ui = rgb { 229 232 155 } 

@@ -1,4 +1,4 @@
-capital = 130
+capital = 149
 set_convoys = 0
 set_research_slots = 2
 set_stability = 0.5

@@ -1,4 +1,4 @@
-capital = 1095
+capital = 3375
 
 oob = "PLA_0002"
 
