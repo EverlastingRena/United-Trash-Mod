@@ -4,6 +4,10 @@ state={
 	provinces={
 		9047 9070 9239 9258 9259 
 	}
+	history={
+		owner = ANG
+		add_core_of = ANG
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

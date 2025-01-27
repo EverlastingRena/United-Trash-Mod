@@ -4,6 +4,10 @@ state={
 	provinces={
 		15854 15925 16071 16297 16350 16378 
 	}
+	history={
+		owner = UST
+		add_core_of = UST
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

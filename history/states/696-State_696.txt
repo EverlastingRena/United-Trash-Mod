@@ -2,6 +2,8 @@ state={
 	id=696
 	name="STATE_696"
 	history = {
+		owner = KIR
+		add_core_of = KIR
 	victory_points = { 14777 51 }#Киров
 	victory_points = { 14491 8 }#Нолинск
 	victory_points = { 15024 21 }#Лас-Чепегас
@@ -24,6 +26,8 @@ state={
 	victory_points = { 14081 5 }#Фалёнки
 	victory_points = { 14641 4 }#Афанасьево
 	victory_points = { 14991 9 }#Кирс
+	
+	
 }
 	provinces={
 		13824 14055 14080 14081 14198 14269 14490 14491 14511 14565 14641 14664 14777 14778 14864 14908 14991 15024 15107 15400 15401 15715 

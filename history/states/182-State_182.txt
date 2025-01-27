@@ -4,6 +4,10 @@ state={
 	provinces={
 		19039 
 	}
+	history={
+		owner = SPU
+		add_core_of = SPU
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

@@ -3,6 +3,10 @@ state={
 	name="STATE_1222"
 	provinces={
 		15338  
+	} 
+	history={
+		owner = TRO
+		add_core_of = TRO
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
