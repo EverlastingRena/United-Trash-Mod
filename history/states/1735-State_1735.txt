@@ -5,6 +5,8 @@ state={
 		8404 
 	}
 	history={
+	victory_points = { 8404 1 }#Харбин
+
 		owner = YRU
 		add_core_of = YRU
 	}

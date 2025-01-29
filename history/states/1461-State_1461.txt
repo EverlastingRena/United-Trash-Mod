@@ -5,6 +5,15 @@ state={
 		9420 9502 9562 9633 9671 9714 9756 9866 9867 9883 9956 9983 10002 10085 10152 10233 10446 10571 10795 
 	}
 	history={
+	victory_points = { 9866 1 }#Сунгарск
+	victory_points = { 9562 1 }#Суйбирецк
+	victory_points = { 9714 1 }#Чунгжэнь
+	victory_points = { 9983 1 }#Фансянь
+	victory_points = { 9633 1 }#Кахма
+	victory_points = { 9420 1 }#Семёновка
+	victory_points = { 10571 1 }#Мона
+	victory_points = { 10152 1 }#Эгу
+	victory_points = { 10002 1 }#Лязин
 		owner = YRU
 		add_core_of = YRU
 	}

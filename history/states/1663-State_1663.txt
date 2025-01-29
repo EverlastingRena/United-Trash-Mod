@@ -5,6 +5,8 @@ state={
 		8285 8331 8451 8452 8461 8544 8635 8729 8763 8867 8868 8933 9076 
 	}
 	history={
+	victory_points = { 8763 1 }#Дацин
+	victory_points = { 8544 1 }#Ланьск
 		owner = YRU
 		add_core_of = YRU
 	}
