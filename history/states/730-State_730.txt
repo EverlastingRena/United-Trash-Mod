@@ -1,0 +1,15 @@
+state={
+	id=730
+	name="STATE_730"
+	provinces={
+		15291 15292 15293 15407 15454 15480 15526 15798 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

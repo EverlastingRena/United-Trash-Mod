@@ -1,0 +1,12 @@
+state={
+	id=2664
+	name="STATE_2664"
+	provinces={
+		2445 
+	}
+	manpower=1
+	impassable = yes
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

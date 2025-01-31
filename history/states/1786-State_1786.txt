@@ -1,0 +1,14 @@
+state={
+	id=1786
+	name="STATE_1786"
+	provinces={
+		7984 
+	}
+	history={
+		owner = FRR
+		add_core_of = FRR
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

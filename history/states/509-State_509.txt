@@ -1,0 +1,14 @@
+state={
+	id=509
+	name="STATE_509"
+	provinces={
+		16762 16763 16764 17058 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

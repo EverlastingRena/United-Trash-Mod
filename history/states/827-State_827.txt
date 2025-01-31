@@ -1,0 +1,14 @@
+state={
+	id=827
+	name="STATE_827"
+	provinces={
+		15198 15321 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

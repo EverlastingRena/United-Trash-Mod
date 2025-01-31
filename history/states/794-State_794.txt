@@ -1,0 +1,15 @@
+state={
+	id=794
+	name="STATE_794"
+	provinces={
+		14387 14649 14757 14785 14812 14813 14843 15063 15158 15225 15288 21653 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

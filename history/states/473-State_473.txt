@@ -1,0 +1,14 @@
+state={
+	id=473
+	name="STATE_473"
+	provinces={
+		17497 
+	}
+	history={
+		owner = KRO
+		add_core_of = KRO
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

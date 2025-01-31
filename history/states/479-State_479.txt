@@ -1,0 +1,14 @@
+state={
+	id=479
+	name="STATE_479"
+	provinces={
+		17332 
+	}
+	history={
+		owner = SPB
+		add_core_of = SPB
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=2039
+	name="STATE_2039"
+	provinces={
+		5919 6002 6026 6068 6078 
+	}
+	history={
+		owner = AZE
+		add_core_of = AZE
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

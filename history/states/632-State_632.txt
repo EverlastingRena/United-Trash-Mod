@@ -1,0 +1,15 @@
+state={
+	id=632
+	name="STATE_632"
+	provinces={
+		15679 15680 15858 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

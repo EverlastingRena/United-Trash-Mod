@@ -1,0 +1,15 @@
+state={
+	id=2018
+	name="STATE_2018"
+	provinces={
+		6275 21598 
+	}
+	history={
+		owner = ARM
+		add_core_of = ARM
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=973
+	name="STATE_973"
+	provinces={
+		13610 13710 13804 13837 13900 13970 14012 14036 14063 14251 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

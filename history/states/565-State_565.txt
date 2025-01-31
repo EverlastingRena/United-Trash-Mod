@@ -1,0 +1,14 @@
+state={
+	id=565
+	name="STATE_565"
+	provinces={
+		16136 16137 16138 16139 16140 16405 16435 16630 16673 16786 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

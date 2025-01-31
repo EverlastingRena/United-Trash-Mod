@@ -1,0 +1,15 @@
+state={
+	id=3451
+	name="STATE_3451"
+	provinces={
+		1656 1684 1808 1939 1951 1986 1997 2085 2137 2146 2147 2220 
+	}
+	manpower=1
+	history={
+		owner = TST
+		add_core_of = TST
+	}
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

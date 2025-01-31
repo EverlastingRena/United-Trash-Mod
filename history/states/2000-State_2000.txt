@@ -1,0 +1,14 @@
+state={
+	id=2000
+	name="STATE_2000"
+	provinces={
+		6491 6501 
+	}
+	history={
+		owner = TIF
+		add_core_of = TIF
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=1951
+	name="STATE_1951"
+	provinces={
+		6579 6602 6758 
+	}
+	history={
+		owner = CAU
+		add_core_of = CAU
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

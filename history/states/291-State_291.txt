@@ -1,0 +1,14 @@
+state={
+	id=291
+	name="STATE_291"
+	provinces={
+		18465 
+	}
+	history={
+		owner = SPU
+		add_core_of = SPU
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

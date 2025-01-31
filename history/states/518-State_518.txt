@@ -1,0 +1,14 @@
+state={
+	id=518
+	name="STATE_518"
+	provinces={
+		16779 16848 16942 16943 17113 17150 
+	}
+	history={
+		owner = RNG
+		add_core_of = RNG
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

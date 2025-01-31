@@ -1,0 +1,14 @@
+state={
+	id=345
+	name="STATE_345"
+	provinces={
+		17986 18025 18039 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

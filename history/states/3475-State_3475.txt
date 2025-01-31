@@ -1,0 +1,16 @@
+state={
+	id=3475
+	name="STATE_3487"
+	provinces={
+		4852 
+	}
+	history={
+		owner = TST
+		add_core_of = TST
+	}
+	manpower=1
+	impassable = yes
+	state_category = "wasteland"
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

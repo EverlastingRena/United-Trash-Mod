@@ -1,0 +1,14 @@
+state={
+	id=392
+	name="STATE_392"
+	provinces={
+		17830 
+	}
+	history={
+		owner = FIN
+		add_core_of = FIN
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

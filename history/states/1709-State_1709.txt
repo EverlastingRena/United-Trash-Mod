@@ -1,0 +1,21 @@
+state={
+	id=1709
+	name="STATE_1709"
+	provinces={
+		8383 8418 8492 8513 8569 8713 
+	}
+	history={
+	victory_points = { 8383 1 }#Лирятин
+	victory_points = { 8513 1 }#Баянь
+	victory_points = { 8569 1 }#Мулань
+	victory_points = { 8763 1 }#Любеч
+	victory_points = { 8418 1 }#Гаолимао
+	victory_points = { 8492 1 }#Фанжин
+		owner = YRU
+		add_core_of = YRU
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=897
+	name="STATE_897"
+	provinces={
+		14640 14804 14838 
+	}
+	history={
+		owner = FMR
+		add_core_of = FMR
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

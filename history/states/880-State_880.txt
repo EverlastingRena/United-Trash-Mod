@@ -1,0 +1,14 @@
+state={
+	id=880
+	name="STATE_880"
+	provinces={
+		14893 15038 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

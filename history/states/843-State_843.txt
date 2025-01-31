@@ -1,0 +1,14 @@
+state={
+	id=843
+	name="STATE_843"
+	provinces={
+		15253 
+	}
+	history={
+		owner = TRK
+		add_core_of = TRK
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}

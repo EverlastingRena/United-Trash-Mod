@@ -1,0 +1,15 @@
+state={
+	id=570
+	name="STATE_570"
+	provinces={
+		16529 16664 16688 16755 16781 16849 
+	}
+	history={
+		owner = RNG
+		add_core_of = RNG
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

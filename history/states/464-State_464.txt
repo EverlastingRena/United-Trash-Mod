@@ -1,0 +1,14 @@
+state={
+	id=464
+	name="STATE_464"
+	provinces={
+		17074 17167 17195 17239 17351 17389 17424 17561 
+	}
+	history={
+		owner = RNG
+		add_core_of = RNG
+	}
+	manpower=1
+	state_category = "rural"
+	buildings_max_level_factor=1.000
+}
