@@ -4,6 +4,10 @@ state={
 	provinces={
 		11786 11812 11891 11976 12108 12156 12207 
 	}
+	history={
+		owner = RNG
+		add_core_of = RNG
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

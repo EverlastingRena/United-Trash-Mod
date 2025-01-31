@@ -4,6 +4,10 @@ state={
 	provinces={
 		9250 9251 9270 9307 9409 
 	}
+	history={
+		owner = DNB
+		add_core_of = DNB
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000
