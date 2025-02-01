@@ -1,4 +1,4 @@
-capital = 1364
+capital = 1491
 set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.5

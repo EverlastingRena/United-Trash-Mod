@@ -4,6 +4,10 @@ state={
 	provinces={
 		10223 10316 10378 10397 10432 10613 10644 10658 10713 10714 10782 10853 10880 10881 11036 11037 11130 11220 11284 11334 11428 11521 11589 11607 
 	}
+	history = {
+		owner = SMR
+		add_core_of = SMR
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

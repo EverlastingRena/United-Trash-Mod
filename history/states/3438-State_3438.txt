@@ -4,6 +4,10 @@ state={
 	provinces={
 		5990 6101 6141 6315 6316 6337 
 	}
+	history = {
+		owner = RAG
+		add_core_of = RAG
+	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural

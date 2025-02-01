@@ -4,6 +4,10 @@ state={
 	provinces={
 		6771 6895 6944 7146 
 	}
+	history = {
+		owner = TBZ
+		add_core_of = TBZ
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000

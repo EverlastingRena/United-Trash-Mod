@@ -4,6 +4,10 @@ state={
 	provinces={
 		16011 16096 16161 
 	}
+	history = {
+		owner = EPR
+		add_core_of = EPR
+	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural

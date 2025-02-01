@@ -4,6 +4,10 @@ state={
 	provinces={
 		14428 14429 14485 14661 14693 14694 14796 14860 14937 14959 15055 15099 15149 15189 15217 
 	}
+	history = {
+		owner = LUK
+		add_core_of = LUK
+	}
 	manpower=1
 	state_category = "rural"
 	buildings_max_level_factor=1.000
