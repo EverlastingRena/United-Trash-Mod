@@ -5,6 +5,10 @@ state={
 	provinces={
 		12716 12736 12867 12913 12914 12942 12980 13007 13090 13126 13151 13216 13287 13368 13381 13382 13410 
 	}
+	history = {
+		owner = EUR
+		add_core_of = EUR
+	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural

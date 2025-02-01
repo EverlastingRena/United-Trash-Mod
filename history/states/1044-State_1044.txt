@@ -10,6 +10,10 @@ state={
 	victory_points = { 13501 5 }#Юрино
 	victory_points = { 13369 9 }#Морки
 	victory_points = { 13582 8 }#Сернур
+	
+		owner = EUR
+		add_core_of = EUR
+	
 	}
 	provinces={
 		13268 13289 13369 13462 13501 13502 13550 13582 13703 13727 13754 13823 
